@@ -1,0 +1,43 @@
+
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    --red : #f24538;
+}
+
+h3{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+
+.image-search{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url("../img/louvre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.square{
+    height: 5em;
+    width: 5em;
+    position: relative;
+    background-color: var(--red)
+}
+
+.square-title{
+    position: relative;
+    left: 2em;
+}
+
+.square-title h3{
+    position: relative;
+    left: 2em;
+}
