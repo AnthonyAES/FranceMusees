@@ -1,0 +1,52 @@
+/******************************* GENERAL ********************************/
+
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    --red : #f24538;
+}
+
+h3{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+
+/******************** HEADER IMAGE ET ZONE DE RECHERCHE *****************/
+
+.image-search{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url("../img/louvre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/**************************** TROUVER UN MUSEE **************************/
+
+.square-title{
+    margin-top: 10em;
+    position: relative;
+    min-height: 10em;
+}
+
+.square{
+    height: 8em;
+    width: 8em;
+    position: absolute;
+    background-color: var(--red);
+}
+
+.square-title h3{
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    color: black;
+}

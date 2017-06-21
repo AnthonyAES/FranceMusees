@@ -1,59 +1,57 @@
 <!DOCTYPE html>
-<?php
-$hostname='localhost';
-$username='santhony';
-$password='santhony@2017';
-try {
-    $conn = new PDO("mysql:host=$hostname;dbname=santhony", $username, $password);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $conn->prepare("SELECT * FROM musee ORDER by id DESC LIMIT 10"); 
-    $stmt->execute();
-    // set the resulting array to associative
-    $result = $stmt->fetchAll();    
-    }
-catch(PDOException $e)
-    {
-    echo "Connection failed: " . $e->getMessage();
-    }
-?>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Musées de France</title>
-</head>
-<body>
-     <?php  
-        foreach($result as $article){
-            $linkDep = $article['nom_dep'];
-            $linkDep_ = str_replace(' ', '_', $linkDep);
-            $adr_img = $article['lien_image'];
-            echo "<p class='img-acc'>";
-            echo "<img src='".$adr_img."'>";
-            echo "</p>";
-        echo "<div class='homeart'>";
-        echo  "<div class='post-preview'><a href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
-        echo $article['nom_du_musee'];
-        echo "</h2></a>";
-            
-        echo "<p class='post-subtitle-mess'>";
-        echo $article['cp'];
-        echo " ";
-        echo $article['ville'];
-        echo "</p>";
-            
-        echo "<p class='post-meta'>";
-        echo $article['periode_ouverture']; 
-        echo "</p></div>";
-        echo "<div class='more'><a href='musee.php?id=" . $article['id'] . "'>Lire plus...</a></div>";
-        echo "</div><hr>";
-    }       
-                        
-               
-               
-               
-    ?>
-</body>
+    <head>
+        <!-- METAS -->
+        <meta charset="UTF-8">
+        <title>Annuaire des Musées de France</title>
+        <meta name="description" content="annuaire gratuit et libre de tous les musées de France, pour simplifier vos recherches culturelles" />
+        <meta name="keywords" content="musée, musées, annuaire, liste, culture, culturel, visite, expositions, nouveautés" />
+        <meta name="abstract" content="annuaire gratuit et libre de tous les musées de France, pour simplifier vos recherches culturelles" />
+        <meta name="revisit-after" content="3 days" />
+        <meta name="generator" content="www.absolute-referencement.com">
+        <meta name="language" content="fr" />
+        <meta name="robots" content="All" />
+
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <!-- TYPO -->
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    </head>
+
+
+    <body class="container-fluid">
+
+
+        <!-- include header.php -->
+
+
+        <article class="row image-search">
+
+            <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
+            <input class="search-box col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" />
+
+        </article>
+
+        <article class="row find-museum">
+
+            <div class="square-title">
+                <div class="square"></div>
+                <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-3">Liste des musées</h3>
+            </div>
+
+        </article>
+
+
+
+        <!-- include footer.php -->
+        <!--
+<script src="js/bootstrap.min.js"></script>-->
+        <script src="js/script.js"></script>
+    </body>
+
 </html>
