@@ -27,7 +27,7 @@ catch(PDOException $e)
 </head>
     <style>
         #map{
-            width: 100vw;
+            width: 100%;
             height: 500px;
         }
     </style>

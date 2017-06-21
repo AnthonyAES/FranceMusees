@@ -1,5 +1,7 @@
 function initMap() {
     var adressComp = document.querySelector('.adressecomp').innerText;
+    var nameMuseum = document.querySelector('.post-title').innerText;
+    var adrGeo = nameMuseum + " " + adressComp;
     console.log(adressComp);
 	// Une variable pour contenir notre future marker
 	var myMarker = null;
@@ -23,7 +25,7 @@ function initMap() {
  
 	// L'adresse que nous allons rechercher
 	var GeocoderOptions = {
-	    'address' : adressComp,
+	    'address' : adrGeo,
 	    'region' : 'FR'
 	}
  
@@ -43,7 +45,7 @@ function initMap() {
 	    myMarker = new google.maps.Marker({
 	      position: results[0].geometry.location,
 	      map: myMap,
-	      title: "Palais de l\'Elysée"
+	      title: nameMuseum
 	    });
  
 	    // Et on centre la vue sur ce marker

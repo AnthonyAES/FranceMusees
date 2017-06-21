@@ -1,5 +1,10 @@
 <?php
-$id=$_GET['id'];
+if(!empty($_GET['id'])){
+    $id= $_GET['id'];
+} else {
+   $id= 0;
+}
+    
 $hostname='localhost';
 $username='santhony';
 $password='santhony@2017';
@@ -26,6 +31,9 @@ catch(PDOException $e)
     <title>Musées de France</title>
 </head>
 <body>
+    
+    <?php include 'recherche.php'; ?>
+    
      <?php  
         foreach($result as $article){
             $linkDep = $article['nom_dep'];
