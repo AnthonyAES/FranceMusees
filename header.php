@@ -1,6 +1,6 @@
 <header class="row">
     <a href="index.php">
-        <div class="logo col-xs-12 col-md-offset-2 col-md-4">
+        <div class="logo col-xs-12 col-md-4">
             <svg version="1.1"
                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
                  x="0px" y="0px" width="39px" height="39px" viewBox="0 0 39 39" style="overflow:scroll;enable-background:new 0 0 39 39;"
@@ -39,12 +39,12 @@
                 </g>
             </svg>
             <p class="logo-text">
-                <span class="hidden" style="display:none;">m</span>usée de France
+                <span class="hidden">m</span>usée de France
             </p>
         </div>
     </a>
 
-    <div class="catch-text col-md-offset-2 col-md-4">
-        <h2 style="line-height:5em;">Annuaire des principaux musées de France</h2>
+    <div class="catch-text col-md-offset-4 col-md-3">
+        <h2>Annuaire des principaux <br/> musées de France</h2>
     </div>
 </header>

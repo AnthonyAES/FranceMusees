@@ -34,8 +34,11 @@
         <article class="row image-search">
 
             <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
-            <input class="search-box col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" />
 
+            <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="" method="get">
+                <input type="text" id="search" class="search-box col-xs-offset-1 col-xs-10" name="search"/>
+                <input type="submit" value="Envoyer" class="col-md-offset-4 col-md-4">
+            </form>
         </article>
 
         <article class="find-museum">
@@ -208,7 +211,7 @@
                                         <li><a href="departement.php?id=73">Savoie</a></li>
                                         <li><a href="departement.php?id=69">Rhône</a></li>
                                         <li><a href="departement.php?id=74">Haute-Savoie</a></li>
-                                        
+
                                     </ul>
                                 </div>
                             </div>
