@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Didact Gothic', sans-serif;
-    --red : #f24538;
+    --red : #F25038;
 }
 
 h3{
@@ -13,6 +13,50 @@ h3{
     color: white;
 }
 
+.row{
+    margin-bottom: 5em;
+}
+
+a:focus, a:hover {
+    text-decoration: none; 
+}
+
+li{
+    list-style: square;
+    
+}
+/************************* TOP HEADER & NAV *****************************/
+
+.logo{
+    position: relative
+}
+
+.logo svg{
+    width: 5em;
+    height: 5em;
+    display: inline;
+}
+
+.logo-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: inline;
+    position: absolute;
+    bottom: -27px;
+}
+
+.hidden{
+    display: none;
+}
+
+.catch-text{
+    height: 5em;
+}
+
+h2{
+    line-height: 5em;
+}
 
 /******************** HEADER IMAGE ET ZONE DE RECHERCHE *****************/
 
@@ -30,6 +74,7 @@ h3{
 
 
 /**************************** TROUVER UN MUSEE **************************/
+
 
 .square-title{
     margin-top: 10em;
@@ -50,3 +95,84 @@ h3{
     left: 2em;
     color: black;
 }
+
+article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > .square{
+    margin-left: 8em;
+}
+
+article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
+    left: 0;
+}
+
+.panel{
+    box-shadow: none;
+}
+
+.panel-default {
+    border: none;
+    border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border:none;
+    border-color: transparent;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: var(--red);
+}
+
+
+
+/**************************** EXPOSITIONS **************************/
+
+.expo-1{
+    height: 40em;
+    background-image: url("../img/expo-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.expo-2{
+    height: 40em;
+    background-image: url("../img/expo-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.expo-3{
+    height: 40em;
+    background-image: url("../img/expo-3a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.expo-4{
+    height: 40em;
+    background-image: url("../img/expo-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
