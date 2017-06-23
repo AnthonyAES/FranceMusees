@@ -180,13 +180,12 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
 
 /* -------------------------------------------------------- */
 
-.panel-body > ul > li.is-active {
-    background-color: dodgerblue;
+a.is-active {
+    color: #F25038;
 }
 
 .carte path.is-active {
-    background-color: dodgerblue;
-    fill: rgba(30, 144, 255, 0.73);
+    fill: #F25038;
 }
 
 
