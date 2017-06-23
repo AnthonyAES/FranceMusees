@@ -18,7 +18,7 @@ var activeArea = function(id, id2) {
         var fullId = '#FR-' + id + "-" + id2;
         document.querySelector(fullId).classList.add('is-active');
         document.querySelector('#region-'+id2).classList.add('is-active');
-        document.querySelector('#list-'+id).classList.add('is-active');
+        document.querySelector('#list-'+id+'-'+id2).classList.add('is-active');
     }
 }
 
@@ -34,18 +34,6 @@ var activeArea2 = function(id, id2) {
         document.querySelector('#list-'+id+'-'+id2).classList.add('is-active');
     }
 }
-
-/*var activeArea = function(id, id2) {
-    map.querySelectorAll('.is-active').forEach(function (item){
-            item.classList.remove('is-active');
-        });
-    if (id !== undefined) {
-        var fullId = '#FR-' + id + "-" + id2;
-        document.querySelector('path'+fullId).classList.add('is-active');
-        document.querySelector('#region-'+id2).classList.add('is-active');
-        document.querySelector('#list-'+id+'-'+id2).classList.add('is-active');
-    }
-}*/
 
 var activeArea4 = function(id, id2) {
     map.querySelectorAll('.is-active').forEach(function (item){

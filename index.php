@@ -116,7 +116,7 @@
                                         <li><a id="list-34-C" href="departement.php?id=34">Hérault</a></li>
                                         <li><a id="list-46-C" href="departement.php?id=46">Lot</a></li>
                                         <li><a id="list-48-C" href="departement.php?id=48">Lozère</a></li>
-                                        <li><a id="list-64-C" href="departement.php?id=64">Hautes-Pyrénées</a></li>
+                                        <li><a id="list-65-C" href="departement.php?id=64">Hautes-Pyrénées</a></li>
                                         <li><a id="list-66-C" href="departement.php?id=66">Pyrénées-Orientales</a></li>
                                         <li><a id="list-81-C" href="departement.php?id=81">Tarn</a></li>
                                         <li><a id="list-82-C" href="departement.php?id=82">Tarn-et-Garonne</a></li>
