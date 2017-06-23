@@ -23,30 +23,66 @@ catch(PDOException $e)
     }
 ?>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Musées de France</title>
-</head>
-<body>
+    <head>
+        <!-- METAS -->
+        <meta charset="UTF-8">
+        <title>Annuaire des Musées de France</title>
+        <meta name="description" content="annuaire gratuit et libre de tous les musées de France, pour simplifier vos recherches culturelles" />
+        <meta name="keywords" content="musée, musées, annuaire, liste, culture, culturel, visite, expositions, nouveautés" />
+        <meta name="abstract" content="annuaire gratuit et libre de tous les musées de France, pour simplifier vos recherches culturelles" />
+        <meta name="revisit-after" content="3 days" />
+        <meta name="generator" content="www.absolute-referencement.com">
+        <meta name="language" content="fr" />
+        <meta name="robots" content="All" />
+
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+        <!-- TYPO -->
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    </head>
+
+
+    <body class="container-fluid">
     
-    <form action ="recherche.php" method="get">
+        <?php include 'header.php' ?>
+
+        <article class="row box-search">
+
+            <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
+
+            <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="recherche.php" method="get">
+                <input type="text" id="search" class="search-box col-xs-offset-2 col-xs-7" name="search"/>
+                <button type="submit" class="col-xs-2 send">
+                    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.25 37.04"><circle class="line-1" cx="13.05" cy="13.05" r="10.72"/><line class="line-1" x1="30.92" y1="34.71" x2="19.87" y2="21.32"/></svg>
+                </button>
+            </form>
+        </article>
+    
+    <!--<form action ="recherche.php" method="get">
         <span>Recherche par nom :</span> 
         <input type="text" id="search" name="search"/>
         <input type="submit" value="Envoyer">
         <input type="reset" value="Annuler">
-    </form>
-    
+    </form>-->
+       <article class="row">
+        <div class="list col-md-4"></div>
+    <div class="box-vign col-md-8">
      <?php  
         foreach($result as $article){
             $linkDep = $article['nom_dep'];
             $linkDep_ = str_replace(' ', '_', $linkDep);
             $adr_img = $article['lien_image'];
+        echo "<div class='vignette col-xs-4'>";    
             echo "<p class='img-acc'>";
             echo "<img src='".$adr_img."'>";
             echo "</p>";
-        echo "<div class='homeart'>";
         echo  "<div class='post-preview'><a href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
         echo $article['nom_du_musee'];
         echo "</h2></a>";
@@ -61,12 +97,14 @@ catch(PDOException $e)
         echo $article['periode_ouverture']; 
         echo "</p></div>";
         echo "<div class='more'><a href='musee.php?id=" . $article['id'] . "'>Lire plus...</a></div>";
-        echo "</div><hr>";
+        echo "</div>";
     }       
                         
                
                
                
     ?>
+        </div>
+        </article>
 </body>
 </html>
