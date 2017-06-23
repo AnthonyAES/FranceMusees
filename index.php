@@ -68,7 +68,7 @@
                                         Hauts de France</a>
                                 </h4>
                             </div>
-                            <div id="collapse1" class="panel-collapse collapse in">
+                            <div id="collapse1" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
                                         <li><a id="list-02-A" href="departement.php?id=02">Aisne</a></li>
