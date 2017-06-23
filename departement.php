@@ -4,7 +4,6 @@ if(!empty($_GET['id'])){
 } else {
    $id= 0;
 }
-    
 $hostname='localhost';
 $username='santhony';
 $password='santhony@2017';
@@ -32,7 +31,12 @@ catch(PDOException $e)
 </head>
 <body>
     
-    <?php include 'recherche.php'; ?>
+    <form action ="recherche.php" method="get">
+        <span>Recherche par nom :</span> 
+        <input type="text" id="search" name="search"/>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
     
      <?php  
         foreach($result as $article){
