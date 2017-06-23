@@ -44,7 +44,7 @@
         </div>
     </a>
 
-    <div class="catch-text col-md-offset-4 col-md-3">
-        <h2>Annuaire des principaux <br/> musées de France</h2>
+    <div class="catch-text col-md-offset-3 col-md-4">
+        <h2>Annuaire des principaux musées de France</h2>
     </div>
 </header>

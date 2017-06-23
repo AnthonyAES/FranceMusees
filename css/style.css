@@ -15,10 +15,11 @@ h3{
 }
 
 h2{
-    font-size: 2.5vh;
+    font-size: 1.6em;
+    padding-top: 0.8em;
 }
 
-.row{
+.row:not(header){
     margin-bottom: 5em;
 }
 
@@ -39,7 +40,8 @@ li{
 
 header{
     line-height: 5em;
-    padding-top: 3.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 header a:focus, header a:hover {
@@ -49,7 +51,7 @@ header a:focus, header a:hover {
 
 .logo{
     position: relative;
-    margin-left: 3em;
+    margin-left: 5em;
 }
 
 .logo svg{
@@ -79,7 +81,7 @@ header a:focus, header a:hover {
 /******************** HEADER IMAGE ET ZONE DE RECHERCHE *****************/
 
 .image-search{
-    height: 70vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,9 +92,13 @@ header a:focus, header a:hover {
 }
 
 .search-box{
-    background: transparent;
+   background: transparent;
     border: none;
     border-bottom: 5px solid white;
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 0.2em;
+    color: white;
 }
 
 /**************************** TROUVER UN MUSEE **************************/
@@ -150,6 +156,7 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
 
 /**************************** EXPOSITIONS **************************/
 
+/*
 .expo-1{
     height: 40em;
     background-image: url("../img/expo-1.jpg");
@@ -177,6 +184,95 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+*/
+
+/*Now the styles*/
+* {
+    margin: 0; 
+	padding: 0;
+}
+
+
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+
+.accordian {
+	width: 100%; height: 43em;
+	overflow: hidden;
+	
+	/*Time for some styling*/
+	margin: 100px auto;
+/*	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);*/
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 2000px;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 138px;
+	float: left;
+	
+	border-left: 1px solid #888;
+	
+	/*box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);*/
+	
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to 
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 405px;}
+
+
+.accordian li img {
+	display: block;
+    max-height: 43em;
+    width: auto;
+}
+
+/*Image title styles*/
+.image_title {
+	background: rgba(242, 69, 56, 0.5);
+	position: absolute;
+	left: 0; bottom: 0;	
+    width: 405px;	
+}
+
+.image_title a {
+	display: block;
+	color: #fff;
+    font-weight: 600; 
+	text-decoration: none;
+	padding: 20px;
+	font-size: 16px;
+}
+
+
+
 
 /* -------------------------------------------------------- */
 

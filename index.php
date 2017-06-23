@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="css/style.css">
 
 
+
+
         <!-- TYPO -->
         <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
     </head>
@@ -35,7 +37,7 @@
 
             <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
 
-            <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="" method="get">
+            <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="recherche.php" method="get">
                 <input type="text" id="search" class="search-box col-xs-offset-1 col-xs-10" name="search"/>
                 <input type="submit" value="Envoyer" class="col-md-offset-4 col-md-4">
             </form>
@@ -686,19 +688,49 @@
                 <div class="square"></div>
                 <h3 class="">Dernières expositions</h3>
             </div>
+
             <div class="exhibitions col-xs-offset-1 col-xs-10 col-md-offset-4 col-md-6">
-                <div class="col-md-3 expo-1">
-
+                <div class="accordian">
+                    <ul>
+                        <li>
+                            <div class="image_title">
+                                <a href="#">KungFu Panda</a>
+                            </div>
+                            <a href="#">
+                                <img src="img/expo-1.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="image_title">
+                                <a href="#">Toy Story 2</a>
+                            </div>
+                            <a href="#">
+                                <img src="img/expo-2.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="image_title">
+                                <a href="#">Wall-E</a>
+                            </div>
+                            <a href="#">
+                                <img src="img/expo-3a.jpg"/>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="image_title">
+                                <a href="#">Up</a>
+                            </div>
+                            <a href="#">
+                                <img src="img/expo-4.jpg"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-3 expo-2">
 
-                </div>
-                <div class="col-md-3 expo-3">
-
-                </div>
-                <div class="col-md-3 expo-4">
-
-                </div>
+                <!--<div class="col-md-3 expo-1"></div>
+<div class="col-md-3 expo-2"></div>
+<div class="col-md-3 expo-3"></div>
+<div class="col-md-3 expo-4"></div>-->
             </div>
         </article>
 
