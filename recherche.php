@@ -27,7 +27,7 @@ echo 'Vous avez recherché : ' . $motCle . '<br />';
 		$bdd->exec("SET CHARACTER SET utf8");
 		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);*/
         $conn = new PDO("mysql:host=$hostname;dbname=santhony", $username, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
-            $stmt = $conn->prepare("SELECT COUNT(id) as nbr FROM musee WHERE nom_dep LIKE '". $motCle ."%' OR ville LIKE '". $motCle ."%' OR nom_reg LIKE '". $motCle ."%' OR nom_du_musee LIKE '". $motCle ."%' ");
+            $stmt = $conn->prepare("SELECT COUNT(id) as nbr FROM musee WHERE cp LIKE CONCAT('%', :motcle , '%') OR ville LIKE CONCAT('%', :motcle , '%') OR nom_reg LIKE CONCAT('%', :motcle , '%') OR nom_dep LIKE CONCAT('%', :motcle , '%') OR nom_du_musee LIKE CONCAT('%', :motcle , '%')");
             $stmt->bindParam(':motcle', $motCle);
             $stmt->execute();
             $result = $stmt->fetch();
@@ -43,7 +43,7 @@ echo 'Vous avez recherché : ' . $motCle . '<br />';
         
             $count = ($cPage-1)*$perPage;
         
-            $stmt = $conn->prepare("SELECT * FROM musee WHERE nom_dep LIKE '". $motCle ."%' OR ville LIKE '". $motCle ."%' OR nom_reg LIKE '". $motCle ."%' OR nom_du_musee LIKE '". $motCle ."%' LIMIT ". $count .", ". $perPage ." ");
+            $stmt = $conn->prepare("SELECT * FROM musee WHERE nom_dep LIKE CONCAT('%', :motcle , '%') OR ville LIKE CONCAT('%', :motcle , '%') OR nom_reg LIKE CONCAT('%', :motcle , '%') OR nom_du_musee LIKE CONCAT('%', :motcle , '%') LIMIT :count, :perPage");
             $stmt->bindParam(':motcle', $motCle);
             $stmt->bindParam(':count', $count, PDO::PARAM_INT);
             $stmt->bindParam(':perPage', $perPage, PDO::PARAM_INT);
@@ -68,7 +68,9 @@ echo 'Vous avez recherché : ' . $motCle . '<br />';
     echo "<p class='img-acc'>";
     echo "<img src='".$adr_img."'>";
     echo "</p><br />";
-	echo $donnees['nom_du_musee'] .'<br />';
+	echo "<a href='musee.php?id=" . $donnees['id'] . "'><h2 class='post-title'>";
+    echo $donnees['nom_du_musee'];
+    echo "</h2></a>";
 	echo $donnees['nom_reg'] .'<br />';
 	echo $donnees['ville'] .'<br />';
 	echo '<hr />';
