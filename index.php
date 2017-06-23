@@ -38,8 +38,10 @@
             <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
 
             <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="recherche.php" method="get">
-                <input type="text" id="search" class="search-box col-xs-offset-1 col-xs-10" name="search"/>
-                <input type="submit" value="Envoyer" class="col-md-offset-4 col-md-4">
+                <input type="text" id="search" class="search-box col-xs-offset-1 col-xs-8" name="search"/>
+                <button type="submit" class="col-xs-2 send">
+                    <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.25 37.04"><circle class="line-1" cx="13.05" cy="13.05" r="10.72"/><line class="line-1" x1="30.92" y1="34.71" x2="19.87" y2="21.32"/></svg>
+                </button>
             </form>
         </article>
 
