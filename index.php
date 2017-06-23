@@ -71,11 +71,11 @@
                             <div id="collapse1" class="panel-collapse collapse in">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=02">Aisne</a></li>
-                                        <li><a href="departement.php?id=59">Nord</a></li>
-                                        <li><a href="departement.php?id=60">Oise</a></li>
-                                        <li><a href="departement.php?id=62">Pas-de-Calais</a></li>
-                                        <li><a href="departement.php?id=80">Somme</a></li>
+                                        <li><a id="list-02-A" href="departement.php?id=02">Aisne</a></li>
+                                        <li><a id="list-59-A" href="departement.php?id=59">Nord</a></li>
+                                        <li><a id="list-60-A" href="departement.php?id=60">Oise</a></li>
+                                        <li><a id="list-62-A" href="departement.php?id=62">Pas-de-Calais</a></li>
+                                        <li><a id="list-80-A" href="departement.php?id=80">Somme</a></li>
                                     </ul> 
                                 </div>
                             </div>
@@ -90,11 +90,11 @@
                             <div id="collapse2" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=44">Loire-Atlantique</a></li>
-                                        <li><a href="departement.php?id=49">Maine-et-Loire</a></li>
-                                        <li><a href="departement.php?id=53">Mayenne</a></li>
-                                        <li><a href="departement.php?id=72">Sarthe</a></li>
-                                        <li><a href="departement.php?id=85">Vendée</a></li>
+                                        <li><a id="list-44-B" href="departement.php?id=44">Loire-Atlantique</a></li>
+                                        <li><a id="list-49-B" href="departement.php?id=49">Maine-et-Loire</a></li>
+                                        <li><a id="list-53-B" href="departement.php?id=53">Mayenne</a></li>
+                                        <li><a id="list-72-B" href="departement.php?id=72">Sarthe</a></li>
+                                        <li><a id="list-85-B" href="departement.php?id=85">Vendée</a></li>
                                     </ul> 
                                 </div>
                             </div>
@@ -109,19 +109,19 @@
                             <div id="collapse3" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=09">Ariège</a></li>
-                                        <li><a href="departement.php?id=11">Aude</a></li>
-                                        <li><a href="departement.php?id=12">Aveyron</a></li>
-                                        <li><a href="departement.php?id=30">Gard</a></li>
-                                        <li><a href="departement.php?id=31">Haute-Garonne</a></li>
-                                        <li><a href="departement.php?id=32">Gers</a></li>
-                                        <li><a href="departement.php?id=34">Hérault</a></li>
-                                        <li><a href="departement.php?id=46">Lot</a></li>
-                                        <li><a href="departement.php?id=48">Lozère</a></li>
-                                        <li><a href="departement.php?id=64">Hautes-Pyrénées</a></li>
-                                        <li><a href="departement.php?id=66">Pyrénées-Orientales</a></li>
-                                        <li><a href="departement.php?id=81">Tarn</a></li>
-                                        <li><a href="departement.php?id=82">Tarn-et-Garonne</a></li>
+                                        <li><a id="list-09-C" href="departement.php?id=09">Ariège</a></li>
+                                        <li><a id="list-11-C" href="departement.php?id=11">Aude</a></li>
+                                        <li><a id="list-12-C" href="departement.php?id=12">Aveyron</a></li>
+                                        <li><a id="list-30-C" href="departement.php?id=30">Gard</a></li>
+                                        <li><a id="list-31-C" href="departement.php?id=31">Haute-Garonne</a></li>
+                                        <li><a id="list-32-C" href="departement.php?id=32">Gers</a></li>
+                                        <li><a id="list-34-C" href="departement.php?id=34">Hérault</a></li>
+                                        <li><a id="list-46-C" href="departement.php?id=46">Lot</a></li>
+                                        <li><a id="list-48-C" href="departement.php?id=48">Lozère</a></li>
+                                        <li><a id="list-65-C" href="departement.php?id=64">Hautes-Pyrénées</a></li>
+                                        <li><a id="list-66-C" href="departement.php?id=66">Pyrénées-Orientales</a></li>
+                                        <li><a id="list-81-C" href="departement.php?id=81">Tarn</a></li>
+                                        <li><a id="list-82-C" href="departement.php?id=82">Tarn-et-Garonne</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -136,11 +136,11 @@
                             <div id="collapse4" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=14">Calvados</a></li>
-                                        <li><a href="departement.php?id=27">Eure</a></li>
-                                        <li><a href="departement.php?id=50">Manche</a></li>
-                                        <li><a href="departement.php?id=61">Orne</a></li>
-                                        <li><a href="departement.php?id=76">Seine-Maritime</a></li>
+                                        <li><a id="list-14-D" href="departement.php?id=14">Calvados</a></li>
+                                        <li><a id="list-27-D" href="departement.php?id=27">Eure</a></li>
+                                        <li><a id="list-50-D" href="departement.php?id=50">Manche</a></li>
+                                        <li><a id="list-61-D" href="departement.php?id=61">Orne</a></li>
+                                        <li><a id="list-76-D" href="departement.php?id=76">Seine-Maritime</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -155,16 +155,16 @@
                             <div id="collapse5" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=08">Ardennes</a></li>
-                                        <li><a href="departement.php?id=10">Aube</a></li>
-                                        <li><a href="departement.php?id=51">Marne</a></li>
-                                        <li><a href="departement.php?id=52">Haute-Marne</a></li>
-                                        <li><a href="departement.php?id=54">Meurthe-et-Moselle</a></li>
-                                        <li><a href="departement.php?id=55">Meuse</a></li>
-                                        <li><a href="departement.php?id=57">Moselle</a></li>
-                                        <li><a href="departement.php?id=67">Bas-Rhin</a></li>
-                                        <li><a href="departement.php?id=68">Haut-Rhin</a></li>
-                                        <li><a href="departement.php?id=88">Vosges</a></li>
+                                        <li><a id="list-08-E" href="departement.php?id=08">Ardennes</a></li>
+                                        <li><a id="list-10-E" href="departement.php?id=10">Aube</a></li>
+                                        <li><a id="list-51-E" href="departement.php?id=51">Marne</a></li>
+                                        <li><a id="list-52-E" href="departement.php?id=52">Haute-Marne</a></li>
+                                        <li><a id="list-54-E" href="departement.php?id=54">Meurthe-et-Moselle</a></li>
+                                        <li><a id="list-55-E" href="departement.php?id=55">Meuse</a></li>
+                                        <li><a id="list-57-E" href="departement.php?id=57">Moselle</a></li>
+                                        <li><a id="list-67-E" href="departement.php?id=67">Bas-Rhin</a></li>
+                                        <li><a id="list-68-E" href="departement.php?id=68">Haut-Rhin</a></li>
+                                        <li><a id="list-88-E" href="departement.php?id=88">Vosges</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -179,14 +179,14 @@
                             <div id="collapse6" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=21">Côte-d'Or</a></li>
-                                        <li><a href="departement.php?id=25">Doubs</a></li>
-                                        <li><a href="departement.php?id=39">Jura</a></li>
-                                        <li><a href="departement.php?id=58">Nièvre</a></li>
-                                        <li><a href="departement.php?id=70">Haute-Saône</a></li>
-                                        <li><a href="departement.php?id=71">Saône-et-Loire</a></li>
-                                        <li><a href="departement.php?id=89">Yonne</a></li>
-                                        <li><a href="departement.php?id=90">Territoire de Belfort</a></li>
+                                        <li><a id="list-21-F" href="departement.php?id=21">Côte-d'Or</a></li>
+                                        <li><a id="list-25-F" href="departement.php?id=25">Doubs</a></li>
+                                        <li><a id="list-39-F" href="departement.php?id=39">Jura</a></li>
+                                        <li><a id="list-58-F" href="departement.php?id=58">Nièvre</a></li>
+                                        <li><a id="list-70-F" href="departement.php?id=70">Haute-Saône</a></li>
+                                        <li><a id="list-71-F" href="departement.php?id=71">Saône-et-Loire</a></li>
+                                        <li><a id="list-89-F" href="departement.php?id=89">Yonne</a></li>
+                                        <li><a id="list-90-F" href="departement.php?id=90">Territoire de Belfort</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -201,18 +201,18 @@
                             <div id="collapse7" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=01">Ain</a></li>
-                                        <li><a href="departement.php?id=03">Allier</a></li>
-                                        <li><a href="departement.php?id=07">Ardèche</a></li>
-                                        <li><a href="departement.php?id=15">Cantal</a></li>
-                                        <li><a href="departement.php?id=26">Drôme</a></li>
-                                        <li><a href="departement.php?id=38">Isère</a></li>
-                                        <li><a href="departement.php?id=42">Loire</a></li>
-                                        <li><a href="departement.php?id=43">Haute-Loire</a></li>
-                                        <li><a href="departement.php?id=63">Puy-de-Dôme</a></li>
-                                        <li><a href="departement.php?id=73">Savoie</a></li>
-                                        <li><a href="departement.php?id=69">Rhône</a></li>
-                                        <li><a href="departement.php?id=74">Haute-Savoie</a></li>
+                                        <li><a id="list-01-G" href="departement.php?id=01">Ain</a></li>
+                                        <li><a id="list-03-G" href="departement.php?id=03">Allier</a></li>
+                                        <li><a id="list-07-G" href="departement.php?id=07">Ardèche</a></li>
+                                        <li><a id="list-15-G" href="departement.php?id=15">Cantal</a></li>
+                                        <li><a id="list-26-G" href="departement.php?id=26">Drôme</a></li>
+                                        <li><a id="list-38-G" href="departement.php?id=38">Isère</a></li>
+                                        <li><a id="list-42-G" href="departement.php?id=42">Loire</a></li>
+                                        <li><a id="list-43-G" href="departement.php?id=43">Haute-Loire</a></li>
+                                        <li><a id="list-63-G" href="departement.php?id=63">Puy-de-Dôme</a></li>
+                                        <li><a id="list-73-G" href="departement.php?id=73">Savoie</a></li>
+                                        <li><a id="list-69-G" href="departement.php?id=69">Rhône</a></li>
+                                        <li><a id="list-74-G" href="departement.php?id=74">Haute-Savoie</a></li>
 
                                     </ul>
                                 </div>
@@ -228,14 +228,14 @@
                             <div id="collapse8" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=75">Paris</a></li>
-                                        <li><a href="departement.php?id=77">Seine-et-Marne</a></li>
-                                        <li><a href="departement.php?id=78">Yvelines</a></li>
-                                        <li><a href="departement.php?id=91">Essonne</a></li>
-                                        <li><a href="departement.php?id=92">Hauts-de-Seine</a></li>
-                                        <li><a href="departement.php?id=93">Seine-Saint-Denis</a></li>
-                                        <li><a href="departement.php?id=94">Val-de-Marne</a></li>
-                                        <li><a href="departement.php?id=95">Val-d'Oise</a></li>
+                                        <li><a id="list-75-H" href="departement.php?id=75">Paris</a></li>
+                                        <li><a id="list-77-H" href="departement.php?id=77">Seine-et-Marne</a></li>
+                                        <li><a id="list-78-H" href="departement.php?id=78">Yvelines</a></li>
+                                        <li><a id="list-91-H" href="departement.php?id=91">Essonne</a></li>
+                                        <li><a id="list-92-H" href="departement.php?id=92">Hauts-de-Seine</a></li>
+                                        <li><a id="list-93-H" href="departement.php?id=93">Seine-Saint-Denis</a></li>
+                                        <li><a id="list-94-H" href="departement.php?id=94">Val-de-Marne</a></li>
+                                        <li><a id="list-95-H" href="departement.php?id=95">Val-d'Oise</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -250,12 +250,12 @@
                             <div id="collapse9" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=18">Cher</a></li>
-                                        <li><a href="departement.php?id=28">Eure-et-Loir</a></li>
-                                        <li><a href="departement.php?id=36">Indre</a></li>
-                                        <li><a href="departement.php?id=37">Indre-et-Loire</a></li>
-                                        <li><a href="departement.php?id=41">Loir-et-Cher</a></li>
-                                        <li><a href="departement.php?id=45">Loiret</a></li>
+                                        <li><a id="list-18-I" href="departement.php?id=18">Cher</a></li>
+                                        <li><a id="list-28-I" href="departement.php?id=28">Eure-et-Loir</a></li>
+                                        <li><a id="list-36-I" href="departement.php?id=36">Indre</a></li>
+                                        <li><a id="list-37-I" href="departement.php?id=37">Indre-et-Loire</a></li>
+                                        <li><a id="list-41-I" href="departement.php?id=41">Loir-et-Cher</a></li>
+                                        <li><a id="list-45-I" href="departement.php?id=45">Loiret</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -270,12 +270,12 @@
                             <div id="collapse10" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=04">Alpes-de-Haute-Provence</a></li>
-                                        <li><a href="departement.php?id=05">Hautes-Alpes</a></li>
-                                        <li><a href="departement.php?id=06">Alpes-Maritimes</a></li>
-                                        <li><a href="departement.php?id=13">Bouches-du-Rhône</a></li>
-                                        <li><a href="departement.php?id=83">Var</a></li>
-                                        <li><a href="departement.php?id=84">Vaucluse</a></li>
+                                        <li><a id="list-04-J" href="departement.php?id=04">Alpes-de-Haute-Provence</a></li>
+                                        <li><a id="list-05-J" href="departement.php?id=05">Hautes-Alpes</a></li>
+                                        <li><a id="list-06-J" href="departement.php?id=06">Alpes-Maritimes</a></li>
+                                        <li><a id="list-13-J" href="departement.php?id=13">Bouches-du-Rhône</a></li>
+                                        <li><a id="list-83-J" href="departement.php?id=83">Var</a></li>
+                                        <li><a id="list-84-J" href="departement.php?id=84">Vaucluse</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -290,10 +290,10 @@
                             <div id="collapse11" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=22">Côtes-d'Armor</a></li>
-                                        <li><a href="departement.php?id=29">Finistère</a></li>
-                                        <li><a href="departement.php?id=35">Ille-et-Vilaine</a></li>
-                                        <li><a href="departement.php?id=56">Morbihan</a></li>
+                                        <li><a id="list-22-K" href="departement.php?id=22">Côtes-d'Armor</a></li>
+                                        <li><a id="list-29-K" href="departement.php?id=29">Finistère</a></li>
+                                        <li><a id="list-35-K" href="departement.php?id=35">Ille-et-Vilaine</a></li>
+                                        <li><a id="list-56-K" href="departement.php?id=56">Morbihan</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -308,18 +308,18 @@
                             <div id="collapse12" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=16">Charente</a></li>
-                                        <li><a href="departement.php?id=17">Charente-Maritime</a></li>
-                                        <li><a href="departement.php?id=19">Corrèze</a></li>
-                                        <li><a href="departement.php?id=23">Creuse</a></li>
-                                        <li><a href="departement.php?id=24">Dordogne</a></li>
-                                        <li><a href="departement.php?id=33">Gironde</a></li>
-                                        <li><a href="departement.php?id=40">Landes</a></li>
-                                        <li><a href="departement.php?id=47">Lot-et-Garonne</a></li>
-                                        <li><a href="departement.php?id=64">Pyrénées-Atlantiques</a></li>
-                                        <li><a href="departement.php?id=79">Deux-Sèvres</a></li>
-                                        <li><a href="departement.php?id=86">Vienne</a></li>
-                                        <li><a href="departement.php?id=87">Haute-Vienne</a></li>
+                                        <li><a id="list-16-L" href="departement.php?id=16">Charente</a></li>
+                                        <li><a id="list-17-L" href="departement.php?id=17">Charente-Maritime</a></li>
+                                        <li><a id="list-19-L" href="departement.php?id=19">Corrèze</a></li>
+                                        <li><a id="list-23-L" href="departement.php?id=23">Creuse</a></li>
+                                        <li><a id="list-24-L" href="departement.php?id=24">Dordogne</a></li>
+                                        <li><a id="list-33-L" href="departement.php?id=33">Gironde</a></li>
+                                        <li><a id="list-40-L" href="departement.php?id=40">Landes</a></li>
+                                        <li><a id="list-47-L" href="departement.php?id=47">Lot-et-Garonne</a></li>
+                                        <li><a id="list-64-L" href="departement.php?id=64">Pyrénées-Atlantiques</a></li>
+                                        <li><a id="list-79-L" href="departement.php?id=79">Deux-Sèvres</a></li>
+                                        <li><a id="list-86-L" href="departement.php?id=86">Vienne</a></li>
+                                        <li><a id="list-87-L" href="departement.php?id=87">Haute-Vienne</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -334,8 +334,8 @@
                             <div id="collapse13" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=2A">Corse-du-Sud</a></li>
-                                        <li><a href="departement.php?id=2B">Haute-Corse</a></li>
+                                        <li><a id="list-2A-M" href="departement.php?id=2A">Corse-du-Sud</a></li>
+                                        <li><a id="list-2B-M" href="departement.php?id=2B">Haute-Corse</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -350,11 +350,11 @@
                             <div id="collapse14" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
-                                        <li><a href="departement.php?id=976">Mayotte</a></li>
-                                        <li><a href="departement.php?id=971">Guadeloupe</a></li>
-                                        <li><a href="departement.php?id=973">Guyane</a></li>
-                                        <li><a href="departement.php?id=974">La Réunion</a></li>
-                                        <li><a href="departement.php?id=972">Martinique</a></li>
+                                        <li><a id="list-MY-N" href="departement.php?id=976">Mayotte</a></li>
+                                        <li><a id="list-GD-N" href="departement.php?id=971">Guadeloupe</a></li>
+                                        <li><a id="list-GY-N" href="departement.php?id=973">Guyane</a></li>
+                                        <li><a id="list-LR-N" href="departement.php?id=974">La Réunion</a></li>
+                                        <li><a id="list-MA-N" href="departement.php?id=972">Martinique</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -480,11 +480,11 @@
                         <a href="departement.php?id=37">
                             <path id="FR-37-I" class="cls-2 path-I" d="M189,183.82l.75-.71.28,1.23.83-.75,1.2.88.93-.68,3,.93,1.21-.68-.77,2.21.6,2.21,1.22-.25.66-1.35,2.33.59.19,1.73,1.18-1.16,1,2,.46-.26-1.06,2,.81.42.56,2.92.84-.16.69.82-.66,1-1-.1,1.25,1.86-.62,1.05.6.79-.82,1.18.25,1.09,1.9,1.55.41-.71,2.22.05,2.72,4.88h0l1.19,3.24-1.69.74,0,1.4H211l-1.22,2.4-.72.42L207,215.26l-2.15.61-1.54,1.51.31,1.92-.93.76-.86,5.93-.82.5.86,2.17-.91-.27-.82,1.26-1-.93-1.91.43h0l-1.71-1.95-.61-2.87-1.43-.47-1.56-2.07-.42-3.36-1.88-.58-.53-1-1.63.07,1,2.33-3-.08-2.18,1.4-2.39-1-1.36.9-1.05-2.86.7-.38-.31-2.52-1.13.41,0-1.19-.71-.2-1,.84-1.13-.24.71-1.55-.6-1.13-.64.68-.89-.3.17-.85-2,.28,0-1.28-.82-.86h0l.43-1.2-.47-.31.85-1.05-.06-3.06,2.26-3.13-.24-.71,1.4-1-1-.85,2.24-4.84.15-1.3-1-.57,1.27-2.65h0l-.15-.71h0l1-.1,3.89,2.06.8-.49-1.26-2,.61-1.15,1.33,1.31.82-.13.48-1.24,1.73-.56h0l.68,0h0l1.89-.72Z" transform="translate(0.37 -13.69)"/>
                         </a>
-                        <a href="departement.php?id=3">
-                            <path id="FR-3-G" class="cls-1 path-G" d="M335.24,273.09l.16.75.27-.61,1.13.24,1.29,1.54,1.11.18,1.52-1.07,1-2.61,1.63-1.66,2.57,2.21-.25,1.4,4.23,4.5-.33.78,1.85,1.58.8,2.1h0l1.57,3.25h0v.51h0l1.29,1.17.86,3.11,1.65,0,3.27,2.29.6.07.6-1.12-.82.27.4-3.17,1.69-.71,2.71,2.55,2.67.11,2,3-.74.52.82.24-.29,1.56-1.81,1.54.32,1.11-.6.83,1.3,2.54-.58,1.59,1.19-.49,1.38,1.15.89-.5.35,1.14h0l-1,1,.42,1.53-.8.28-.5,2.22,1.54.9,2.36-.1,0,2.07,1.16.66-.09,3.88-1.08.12-.86-1-1.59,1-3.69-.57-2.53,2.21-1.12-1-2.37,1.48,1,1.07-1,1-2.22.64-1.82-.6-.92,2.43h0l-1.36.47-1.71-1.52-1.87.22-.68-1.3-2.53-1.92.19,1.26-3.15-1.47.85-1.06-.64-.16.94-7.82-.93-2.21.33-1.18.63-.05-.37-.56-.68-.1-1.56,1.86-.9-.59,0,1.09L343,307.92l-2.34.32-1.89-1.34-.93-.05-.55.86-1-.34,1.64-2.14.12-2.25-.76-1.48,1.15-.77L337.1,299l-1.25.34.55-2.29-2,.71-.71-1.71-1,0-.42-1.11-.68-.09L328,297.07l-.68-.6-1.89.6h0l-1.25-1.2-.23-2h0l0-4.14h0l.76,0,0-.75,3-2.67-3.15-2.66,2.69.49.08-.72,1.29-.66,3.17.09-.29-.69.51-.2,1.08.44.71-2.38,1.7-1.74,1.43,0-.6-1.38-1.39-.36.12-1.41-1,.08-.2-1.07,1,.38Z" transform="translate(0.37 -13.69)"/>
+                        <a href="departement.php?id=38">
+                            <path id="FR-38-G" class="cls-1 path-G" d="M335.24,273.09l.16.75.27-.61,1.13.24,1.29,1.54,1.11.18,1.52-1.07,1-2.61,1.63-1.66,2.57,2.21-.25,1.4,4.23,4.5-.33.78,1.85,1.58.8,2.1h0l1.57,3.25h0v.51h0l1.29,1.17.86,3.11,1.65,0,3.27,2.29.6.07.6-1.12-.82.27.4-3.17,1.69-.71,2.71,2.55,2.67.11,2,3-.74.52.82.24-.29,1.56-1.81,1.54.32,1.11-.6.83,1.3,2.54-.58,1.59,1.19-.49,1.38,1.15.89-.5.35,1.14h0l-1,1,.42,1.53-.8.28-.5,2.22,1.54.9,2.36-.1,0,2.07,1.16.66-.09,3.88-1.08.12-.86-1-1.59,1-3.69-.57-2.53,2.21-1.12-1-2.37,1.48,1,1.07-1,1-2.22.64-1.82-.6-.92,2.43h0l-1.36.47-1.71-1.52-1.87.22-.68-1.3-2.53-1.92.19,1.26-3.15-1.47.85-1.06-.64-.16.94-7.82-.93-2.21.33-1.18.63-.05-.37-.56-.68-.1-1.56,1.86-.9-.59,0,1.09L343,307.92l-2.34.32-1.89-1.34-.93-.05-.55.86-1-.34,1.64-2.14.12-2.25-.76-1.48,1.15-.77L337.1,299l-1.25.34.55-2.29-2,.71-.71-1.71-1,0-.42-1.11-.68-.09L328,297.07l-.68-.6-1.89.6h0l-1.25-1.2-.23-2h0l0-4.14h0l.76,0,0-.75,3-2.67-3.15-2.66,2.69.49.08-.72,1.29-.66,3.17.09-.29-.69.51-.2,1.08.44.71-2.38,1.7-1.74,1.43,0-.6-1.38-1.39-.36.12-1.41-1,.08-.2-1.07,1,.38Z" transform="translate(0.37 -13.69)"/>
                         </a>
-                        <a href="departement.php?id=3">
-                            <path id="FR-3-F" class="cls-3 path-F" d="M348.81,202.67l1.92,2.4,2.09-.09,1.12-1,.81.5h0l1.21,3,1.55.64,1.36,2.28-1.89,2.2.49,1.87-.68.53-.91-.52.57.75-.31.87.59.46.93-.46.63-1.21.16,1.39,1.08.72,1.6.33.86-1-.34,1.36,2.08.57-.62,1.28,1.26.62-.42,1.33.86.58-.09,1.07.76-.09h0l-.1.53h0l.18.67,1.06-.5,2.82,1.83,1.8,2.73-4.44,3.56,1.15,1.77-1.84,2.1,2.91,2.36h0l.52,1-2.65,3.47.43.9-.69,1.3h0L360.25,252l-4.7.18-.38-2.28-2.19-.7-.12-1-1.54,2.29-1,.07-.88,1.22-2.13.2-.54-.48.6-1.93h-1.25l-.42-1.53-.67,1.76,0-1.32L343.68,247l.51-.57L341.65,245l.8-.72-.3-.84h0l.31-.79,3-.65.13-1.2-2-.82.09-2.76.71-.16h.67l.29-.87-.57-.49,1.48-1.29-1.51-2.24.42-.6-.51-1.45-1-.06,1-1.92-1.65-1-.43-1.18,2.65-.85,1.79.27-.06-1.26-1.7-.48-.33-1.34-2.28.24-1-2.32-1.15.35-.39-.73.13-1.71h0l2-1.57-1.4-.66.27-1.07,1.43-1.26,1.87-.31.75-2.14,1-.75.66-2-.46-.72,1.13-.89.27-3.39.53.25Z" transform="translate(0.37 -13.69)"/>
+                        <a href="departement.php?id=39">
+                            <path id="FR-39-F" class="cls-3 path-F" d="M348.81,202.67l1.92,2.4,2.09-.09,1.12-1,.81.5h0l1.21,3,1.55.64,1.36,2.28-1.89,2.2.49,1.87-.68.53-.91-.52.57.75-.31.87.59.46.93-.46.63-1.21.16,1.39,1.08.72,1.6.33.86-1-.34,1.36,2.08.57-.62,1.28,1.26.62-.42,1.33.86.58-.09,1.07.76-.09h0l-.1.53h0l.18.67,1.06-.5,2.82,1.83,1.8,2.73-4.44,3.56,1.15,1.77-1.84,2.1,2.91,2.36h0l.52,1-2.65,3.47.43.9-.69,1.3h0L360.25,252l-4.7.18-.38-2.28-2.19-.7-.12-1-1.54,2.29-1,.07-.88,1.22-2.13.2-.54-.48.6-1.93h-1.25l-.42-1.53-.67,1.76,0-1.32L343.68,247l.51-.57L341.65,245l.8-.72-.3-.84h0l.31-.79,3-.65.13-1.2-2-.82.09-2.76.71-.16h.67l.29-.87-.57-.49,1.48-1.29-1.51-2.24.42-.6-.51-1.45-1-.06,1-1.92-1.65-1-.43-1.18,2.65-.85,1.79.27-.06-1.26-1.7-.48-.33-1.34-2.28.24-1-2.32-1.15.35-.39-.73.13-1.71h0l2-1.57-1.4-.66.27-1.07,1.43-1.26,1.87-.31.75-2.14,1-.75.66-2-.46-.72,1.13-.89.27-3.39.53.25Z" transform="translate(0.37 -13.69)"/>
                         </a>
                         <a href="departement.php?id=40">
                             <path id="FR-40-L" class="cls-5 path-L" d="M128,335.11l4.82-1.59.73-1.37,1.88,1.15,1.29,0,.16,1.22-1.52,2.65,3.54-1,3.6,1.08,1.06-.91,4.37-.5.56,1.62-.52.64,3.75,1.74.3,1.09,2.76.74,0,1,1.55.65-.18,3.61,3.92.71,1.52-.58,0-2.73,1.15-.38,1.66,2.09h0l.4,3.36,4.09.12,1.2.9,3.33.27-2.5,4.5.45,1.92h0l-.68,1.07.69,1.92-.56.93-2.61-1.48.91-1.12L167.74,357l-.3,1-1.57.59-.07.88-1-.67-1.08.7-.65-.52-2,1.88,1.59.71.15.76-.73.32.49,2.15-1.08.08.26,2.6.78.59-1.8,1.35.25,2.36-.69.11,0,.71-.63-.28.13,1.18,1,0L161,375h0l-1.33-.05L158,376.5l-1.92-.82-1.78.86-.42-.59,1-1-.57-.49-3.2,2.3-.68-.58-.93.91-2-.82.51-.83-2.13.64-.35.89-1.67-1.74-2.5,1.67-1.94-.38-1.43.83-1.33-.47-.11,1.72-2.46-.2-.42-.64-2,1.59-.9-.82,1.3-.6-1.7-1.26-3.54,2.19-4.08.05-.42-.76-1.19-.11-.35-1-1.52.42h0l2.53-5.33,4.37-22.4Z" transform="translate(0.37 -13.69)"/>
@@ -670,7 +670,7 @@
                             <path id="FR-LR-N" class="cls-6 path-N" d="M271.87,495l-3.91.07-1.42.7L264.92,497l-.3.27H263.5l-2.37.9-1,.9-3.26.47-.3,1.72-.9,3.59a16.12,16.12,0,0,1-1.62,1c-.37.14-2.44,1.25-2.44,1.25l-.37,3.81.9,2.27,2.44,2.89,1.17,1.32.95-.2-.57.27.07,5.18,2.44,3,2.52,2.34,4.43,2.62.3-.17-.35.25,5.26,3.16,4.06,1.47,4.36.75,3.49,1.25,2.22.42s3.42-.7,3.86-.7,4-.7,4-.7l3.64-1.17,2.44-2.22L298.6,529l.45-2.47,1-1.4,1.62-2.14.82-2.69-.22-2.62-1.72-1-2.22-1-1-.07-1.64-2.34a22.67,22.67,0,0,1-2.52-2.84c-.15-.35-1.47-3.31-1.47-3.31l-.45-4.63-2.52-2.42-3-1.64a23.4,23.4,0,0,0-2.82-1.44c-.44-.07-4.36-.9-4.66-.9s-3.19.21-3.26.27l-.37-.15Z" transform="translate(0.37 -13.69)"/>
                         </a>
                         <a href="departement.php?id=97">
-                            <g id="path-N" data-name="FR-MA-N" class="path-N">
+                            <g id="FR-MY-N" data-name="FR-MA-N" class="path-N">
                                 <path id="path5886" class="cls-6" d="M357.28,538c-.43,0-.76,0-1,.46s-.72,0-1-.12a.94.94,0,0,0-1.2.62,4.06,4.06,0,0,0-.1.61c-.08.29-.38.22-.39,0,0-1,.06-2-1-2.24s-1.63.26-1.4,1.35a1.76,1.76,0,0,1,.05.58.49.49,0,0,0-.42.16c-.17.22-.11.54-.29.76a2,2,0,0,1-1,.52c-.53,0-.5-.84-.73-1.16a.86.86,0,0,0-1.11-.25c-.2.15-.12.58-.48.45a10.75,10.75,0,0,1-.27-1.36c-.13-.43-.75-.6-1.17-.6s-.77,1.19-1.31,1.49c-.14.09-.29-.84-.07-1,.42-.38.2-.63.23-1.23s.63-2.37-.67-2c-.36.1-.42.49-.77.6a2.09,2.09,0,0,1-1.31.11c-.33-.14-.21-.55-.73-.48s-.58-.21-.12-.47a4.38,4.38,0,0,1,1.15-.51c.5-.12.64-.52,1-.85a2.52,2.52,0,0,0,.49-2.39c-.11-.3-.19-.72-.58-.77s-1.24,1-1.24.11c0-.57-.12-.51-.54-.81a2.26,2.26,0,0,1-.63-1.21c-.12-.36-.07-.95-.41-1.18s-.83-.19-.73-.65a12.9,12.9,0,0,1,1.81-.17c.23,0,.43.14.67.15a2.39,2.39,0,0,0,.67-.14c.23,0,.78.34.88.53s0,.52.05.77.12.71.14,1.08.4.71.65,1.08.78.38,1.21.59a8.3,8.3,0,0,0,1.33.54c.55.16.93.62,1.51.66a1.71,1.71,0,0,0,1.13-.34c.23-.23.77-.76.77-1s0-.47,0-.7.25,0,.21-.3c-.08-.54-.64-.85-.8-1.34-.05-.16.05-.34-.15-.45s-.36-.07-.4-.32c-.1-.55,0-.58-.44-.91s-.24-.74-.49-1.06c-.13-.16-.32-.13-.48-.23s-.48-.44-.74-.65c-.73-.57-1.76-1-1.94-2-.07-.39-.09-.78-.61-.79a1.85,1.85,0,0,1-1.35-.73c-.16-.22-.66-.42-.52-.78.07-.17.34-.14.47-.23s.19-.26.27-.46c.3-.78,2.18-.44,2.25-.88s-.29-.43-.59-.48a12.27,12.27,0,0,0-1.17-.39c-.49,0-.24-.6-.06-.86A2.84,2.84,0,0,0,344,515c0-.84-1.23-1.35-.7-2.37.24-.46.79-.09,1-.43.53-.7-.79-.41-1-.44-.43,0-.58-.61-.54-1s.41-.57.61-.91.45-1,.35-1.21c-.18-.47-.38-.72-.83-.36-.87.69-1.41-.87-2.21-.44a.7.7,0,0,1-1-.32c-.11-.24-.29-.2-.48-.34a5.58,5.58,0,0,1-.47-.52,1.57,1.57,0,0,0-1-.59c-.34,0-.85.46-1.15.31s-.23-.35-.36-.48-.41-.19-.63-.28c-.57-.25.26-.91.41-1.09a7.6,7.6,0,0,0,1.41-1.74c.44-1.11-1.57-.6-2-.85s1-1.26,1-1.6-.13-.84.07-1.22.44-.22.82-.14,1,.12,1.19-.29a3.64,3.64,0,0,1,.64-.95c.25-.18.63-.65.31-1-.49-.49-.24-.4.38-.49.28,0,.92,0,1-.36s0-1.1.28-1.31.52-.52.83-.75c.14-.11.35-.2.44-.35s-.11-.59.29-.64.46.14.79-.28c.12-.16.88-.94.85-.32,0,.31-.77.55-.36.86s-.09.39-.34.45c-.71.18-2.37.8-1.1,1.5a4.29,4.29,0,0,0,1.24.4c.7.15-.52.59.28.74.25,0,.33,0,.47.2s.17.34.27.4c.4.25.25.6.45,1a2.75,2.75,0,0,0,1,.78,1.63,1.63,0,0,0,.81.28c.25,0,.61-.09.76.19s-1.28.75-.83,1.46c.24.37.71.56.89,1s-.1,1.12.44,1.06c.2,0,.46-.14.65,0s.18.21.4.22c.52,0,.52-.33,1,.14,1,1.06,1.52-.56,2.28-.85.49-.19.54-.1.85.25s.47.74.83.59.83.07,1.26,0a1.21,1.21,0,0,1,1.1.24c.31.2.86-.06,1.23.11.15.07.41.07.51.21s0,.24.2.23.32-.36.46.08c0,.15.16.19.06.32s.28.49.37.61c.28.38.78.35,1.21.39s.68.53.84.8.32.22.47.4a3.61,3.61,0,0,1,.63.9c.28.79-1.44,1.6-.78,2.57.24.35.54.49.58,1,.06.7-.63.11-.9.27-.6.35-1.81.78-1.94,1.57s-.5.71-1,1.16c-.28.26-1,.58-1,1.05s0,.7-.51,1-.71.26-.91.76c-.07.19.06.29.18.41s0,.25-.06.48c-.12.45-.34.9,0,1.35a2.05,2.05,0,0,1,.24.57c.06.17-.08.33,0,.47a3.88,3.88,0,0,0,.4.45c.14.12.47.07.56.24.25.5,0,.71.68.82.24,0,1.11.39.48.47a.84.84,0,0,0,.71,1.08c.16,0,.33-.08.48,0s-.22.37-.24.43c-.18.5,0,1.11-.43,1.5a7.91,7.91,0,0,1-1.39.84,3.17,3.17,0,0,0-1,1c-.22.37,0,1.42.07,1.85,0,.21.81,1.12-.11.74s-1.16-.05-1.49.6c-.21.41-.75.33-1.11.63s-.15,1.12,0,1.43c.3.59.11.68-.53.65s-.79.91-.61,1.36.79.66.83,1.29.6.8,1.06,1a4.21,4.21,0,0,1,.87.43c.18.13.32.36.56.4s.58-.08.81.1c.39.3.1.42.16.8" transform="translate(0.37 -13.69)"/>
                                 <path id="path5890" class="cls-6" d="M370.12,512.43c0,.1-.25.07-.34.1a1.25,1.25,0,0,0-.68.32.8.8,0,0,0-.14.29c-.06.18-.15.35-.23.52s0,.51-.22.66a.57.57,0,0,1-.32.08c-.19,0-.2,0-.32-.1s-.15-.15-.16-.31,0-.3,0-.44,0-.22-.09-.31-.23-.15-.34-.24a1.6,1.6,0,0,1-.31-.27,3.13,3.13,0,0,1-.18-.41c-.17-.31-.24-.58-.57-.71-.14-.06-.24-.17-.37-.24a2.59,2.59,0,0,1-.51-.28c-.28-.23-.56-.47-.5-.87.29-.14.39.11.61.22a5.34,5.34,0,0,1,.6.35c.24.17.47.21.51-.14a1.68,1.68,0,0,0,0-.38,1.4,1.4,0,0,0,0-.21c0-.06-.07-.09-.1-.14a.73.73,0,0,1-.08-.33c0-.15.2-.16.31-.25a2,2,0,0,0,.25-.3,1.49,1.49,0,0,1,.33-.26,2.92,2.92,0,0,0,.37-.18,2.42,2.42,0,0,0,.32-.31c.07-.08.17-.14.24-.23a2.91,2.91,0,0,0,.24-.41,1.36,1.36,0,0,1,.34-.41c.22-.14.31.07.41.22s.11.14.15.22.12.24.31.23a.38.38,0,0,1,.42.34c0,.22,0,.43.06.65a.65.65,0,0,0,.11.26.67.67,0,0,1,.09.35,1.29,1.29,0,0,0,.16.55c.07.1.17.11.24.21a.46.46,0,0,1,0,.33c-.37,0-.54.37-.54.69a6.85,6.85,0,0,1,.1,1.12.3.3,0,0,1-.2,0" transform="translate(0.37 -13.69)"/>
                             </g>

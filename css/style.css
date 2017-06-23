@@ -242,15 +242,45 @@ default width = 800/5 = 160px;
 
 /* -------------------------------------------------------- */
 
-.panel-body > ul > li.is-active {
-    background-color: dodgerblue;
+a.is-active {
+    color: #F25038;
 }
 
 .carte path.is-active {
-    background-color: dodgerblue;
-    fill: rgba(30, 144, 255, 0.73);
+    fill: #F25038;
 }
 
+::-webkit-scrollbar
+
+{
+
+width: 15px;
+
+margin-right: 3px;
+
+}
+
+::-webkit-scrollbar-track
+
+{
+
+/*-webkit-box-shadow: inset 0 0 7px rgba(0,0,0,1);*/
+background-color: #ddd;
+/*border-radius: 10px;*/
+
+}
+
+::-webkit-scrollbar-thumb
+
+{
+
+/*border-radius: 10px;*/
+
+/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);*/
+
+background-color:  var(--red);
+
+}
 
 
 
