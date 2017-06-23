@@ -178,6 +178,16 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
     background-repeat: no-repeat;
 }
 
+/* -------------------------------------------------------- */
+
+.panel-body > ul > li.is-active {
+    background-color: dodgerblue;
+}
+
+.carte path.is-active {
+    background-color: dodgerblue;
+    fill: rgba(30, 144, 255, 0.73);
+}
 
 
 
