@@ -7,7 +7,7 @@ body{
 
 h3{
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 600;
     text-align: center;
     color: white;
@@ -17,6 +17,7 @@ h3{
 h2{
     font-size: 1.6em;
     padding-top: 0.8em;
+    font-weight: 600;
 }
 
 .row:not(header){
@@ -81,29 +82,26 @@ header a:focus, header a:hover {
 /******************** HEADER IMAGE ET ZONE DE RECHERCHE *****************/
 
 .image-search{
-    height: 86vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     background-image: url("../img/essai.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.image-search h3{
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.65);
-}
 
-.search-box{
-   background: transparent;
+
+.search-box {
+    background: transparent;
     border: none;
-    border-bottom: 5px solid white;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.65);
+    border-bottom: 4px solid white;
     font-size: 2em;
     font-weight: 500;
     padding-bottom: 0.2em;
     color: white;
+    height: 59px;
 }
 
 .search-box:focus {
@@ -112,9 +110,17 @@ header a:focus, header a:hover {
 
 .send{
     background-color: transparent;
-    height: 3.5em;
-    width: 4em;
     border: none;
+    text-align: right;
+    margin: 0;
+    border-bottom: 4px solid white;
+    height: 59px;
+}
+
+.send svg{
+    width: 2.5em;
+    height: 3.5em;
+    text-align: right;
 }
 
 .line-1, .cls-2, .cls-3, .cls-4, .cls-5 {
