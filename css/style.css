@@ -10,7 +10,7 @@ body{
 
 h3{
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 2.1em;
+    font-size: 1.8em;
     font-weight: 600;
     text-align: center;
     color: white;
@@ -19,8 +19,11 @@ h3{
 
 h2{
     font-size: 1.6em;
-    padding-top: 0.8em;
     font-weight: 600;
+}
+
+h4{
+    font-size: 1.3em;
 }
 
 .row:not(header){
@@ -37,15 +40,16 @@ a:focus, a:hover {
 }
 
 li{
-    list-style: square; 
+    list-style: square;
+    font-size: 1.2em;
 }
 
 /************************* TOP HEADER & NAV *****************************/
 
 header{
     line-height: 5em;
-    padding-top: 1.5em;
     padding-bottom: 1em;
+    padding-top: 3em;
 }
 
 header a:focus, header a:hover {
@@ -55,7 +59,6 @@ header a:focus, header a:hover {
 
 .logo{
     position: relative;
-    margin-left: 5em;
 }
 
 .logo svg{
@@ -75,10 +78,6 @@ header a:focus, header a:hover {
 
 .hidden{
     display: none;
-}
-
-.catch-text{
-    height: 5em;
 }
 
 
@@ -108,8 +107,8 @@ header a:focus, header a:hover {
     background: transparent;
     border: none;
     border-bottom: 4px solid white;
-    font-size: 2em;
-    font-weight: 500;
+    font-size: 2.5vh;
+    font-weight: 600;
     padding-bottom: 0.2em;
     color: white;
     height: 59px;
@@ -197,7 +196,9 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
     border-top-color: var(--red);
 }
 
-
+.panel-title{
+    font-size: 1.3em;
+}
 
 /**************************** EXPOSITIONS **************************/
 
@@ -206,7 +207,7 @@ article.find-museum > .titles:nth-child(1) > .square-title:nth-child(2) > h3{
 /*Now the styles*/
 * {
     margin: 0; 
-	padding: 0;
+    padding: 0;
 }
 
 
@@ -220,35 +221,35 @@ default width = 800/5 = 160px;
 */
 
 .accordian {
-	width: 100%; height: 43em;
-	overflow: hidden;
-	
-	/*Time for some styling*/
-	margin: 100px auto;
+    width: 100%; height: 43em;
+    overflow: hidden;
+
+    /*Time for some styling*/
+    margin: 100px auto;
 }
 
 /*A small hack to prevent flickering on some browsers*/
 .accordian ul {
-	width: 2000px;
-	/*This will give ample space to the last item to move
-	instead of falling down/flickering during hovers.*/
+    width: 2000px;
+    /*This will give ample space to the last item to move
+    instead of falling down/flickering during hovers.*/
 }
 
 .accordian li {
-	position: relative;
-	display: block;
-	width: 138px;
-	float: left;
-	
-	border-left: 1px solid #888;
-	
-	
-	/*Transitions to give animation effect*/
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	/*If you hover on the images now you should be able to 
-	see the basic accordian*/
+    position: relative;
+    display: block;
+    width: 138px;
+    float: left;
+
+    border-left: 1px solid #888;
+
+
+    /*Transitions to give animation effect*/
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    /*If you hover on the images now you should be able to 
+    see the basic accordian*/
 }
 
 /*Reduce with of un-hovered elements*/
@@ -259,26 +260,26 @@ default width = 800/5 = 160px;
 
 
 .accordian li img {
-	display: block;
+    display: block;
     max-height: 43em;
     width: auto;
 }
 
 /*Image title styles*/
 .image_title {
-	background: rgba(242, 69, 56, 0.8);
-	position: absolute;
-	left: 0; bottom: 0;	
+    background: rgba(242, 69, 56, 0.8);
+    position: absolute;
+    left: 0; bottom: 0;	
     width: 405px;	
 }
 
 .image_title a {
-	display: block;
-	color: #fff;
+    display: block;
+    color: #fff;
     font-weight: 600; 
-	text-decoration: none;
-	padding: 20px;
-	font-size: 16px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
 }
 
 
@@ -298,9 +299,9 @@ a.is-active {
 
 {
 
-width: 15px;
+    width: 15px;
 
-margin-right: 3px;
+    margin-right: 3px;
 
 }
 
@@ -308,9 +309,9 @@ margin-right: 3px;
 
 {
 
-/*-webkit-box-shadow: inset 0 0 7px rgba(0,0,0,1);*/
-background-color: #ddd;
-/*border-radius: 10px;*/
+    /*-webkit-box-shadow: inset 0 0 7px rgba(0,0,0,1);*/
+    background-color: #ddd;
+    /*border-radius: 10px;*/
 
 }
 
@@ -318,11 +319,11 @@ background-color: #ddd;
 
 {
 
-/*border-radius: 10px;*/
+    /*border-radius: 10px;*/
 
-/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);*/
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);*/
 
-background-color:  var(--red);
+    background-color:  var(--red);
 
 }
 
@@ -354,8 +355,10 @@ background-color:  var(--red);
     padding: 10px;
 }
 
+
 .title_vignette {
     background-color: var(--red2);
+    
 }
 
 .post-title {
@@ -432,6 +435,30 @@ background-color:  var(--red);
     color: var(--black);
 }
 
+
+    
+@media (max-width: 576px) { 
+    .catch-text, .carte, .last-exhib{
+        display: none;
+    }
+
+    h3{
+        font-size: 1.6em;
+    }
+
+    .logo-text{
+        font-size: 1.4em;
+    }
+
+    .logo svg {
+        width: 4.5em;
+        height: 4.5em;
+    }
+    
+    .square-title {
+    margin-top: 5em;
+    }
+}
 
 
 
