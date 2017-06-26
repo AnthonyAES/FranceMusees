@@ -42,7 +42,7 @@
             </form>
         </article>
        <article class="row">
-        <div class="liste col-md-2 col-md-offset-1">
+        <div class="liste col-md-4 col-lg-offset-1 col-lg-2 col-xs-12">
             <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
@@ -346,7 +346,7 @@
             
         </div>
 
-    <div class="box-vign2 col-md-8">
+    <div class="box-vign2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
 
 <?php 
 
@@ -397,7 +397,7 @@ $motCle = addslashes($_GET['search']);
             $linkDep = $article['nom_dep'];
             $linkDep_ = str_replace(' ', '_', $linkDep);
             $adr_img = $article['lien_image'];
-        echo "<div class='vignette col-xs-4'>"; 
+        echo "<div class='vignette col-xs-12 col-sm-6 col-md-6 col-lg-4'>"; 
         
         echo "<div class='head_vignette'>";
         echo "<p class='img-acc'>";

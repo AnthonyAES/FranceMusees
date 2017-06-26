@@ -376,7 +376,7 @@ catch(PDOException $e)
                 
                 </div>
 
-    <div class="box-vign col-md-8 col-xs-12">
+    <div class="box-vign col-md-8 col-lg-8 col-sm-12 col-xs-12">
      <?php  
         foreach($result as $article){
             $linkDep = $article['nom_dep'];
