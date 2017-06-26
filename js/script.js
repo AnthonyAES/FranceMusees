@@ -1,6 +1,6 @@
-var map = document.querySelector('.carte');
-var paths = document.querySelectorAll('.carte>svg>a>path');
-var groups = document.querySelectorAll('.carte g.path-N');
+var map = document.querySelector('.carte-int');
+var paths = document.querySelectorAll('.carte-int>svg>a>path');
+var groups = document.querySelectorAll('.carte-int g.path-N');
 var links = document.querySelectorAll('.panel-body>ul>li>a');
 
 //Polyfill du foreach
