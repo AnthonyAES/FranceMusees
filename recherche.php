@@ -405,7 +405,7 @@ $motCle = addslashes($_GET['search']);
         echo "</p>";
             
         echo "<div class='title_vignette'>";   
-        echo  "<a href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
+        echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
         echo $article['nom_du_musee'];
         echo "</h2></a>";
             
@@ -426,7 +426,7 @@ $motCle = addslashes($_GET['search']);
         echo "<p class='post-meta'>";
         echo $article['periode_ouverture']; 
         echo "</p>";
-        echo "<div class='more'><a href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
+        echo "<div class='more'><a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
         echo "</div>";
         echo "</div>";
         echo "</div>";
@@ -448,6 +448,35 @@ $motCle = addslashes($_GET['search']);
 
 
         </div>
+        <?php
+        
+        foreach($musees as $article){
+        echo '<div id="myModal'.$article['id'].'" class="modal fade" tabindex="-1" role="dialog">';
+        echo    '<div class="modal-dialog" role="document">';
+        echo            '<div class="modal-content">';
+        echo                '<div class="modal-header">';
+        echo                    '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
+        echo                    '<h4 class="modal-title">Modal title</h4>';
+        echo                '</div>';
+        echo                '<div class="modal-body">';
+        echo                    '<div class="col-xs-12 col-md-6">';
+                        include 'musee.php';
+        echo                    '</div>';
+        echo                    '<div class="col-xs-12 col-md-6" id="map">';
+
+        echo                    '</div>';
+        echo                '</div>';
+        echo                '<div class="modal-footer">';
+        echo                    '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
+        echo                    '<button type="button" class="btn btn-primary">Save changes</button>';
+        echo                '</div>';
+        echo            '</div>';
+        echo        '</div>';
+        echo    '</div>';
+        }
+               
+               
+    ?>
         </article>
         
         <script
