@@ -38,8 +38,8 @@
             <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
 
             <form class=" col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6" action ="recherche.php" method="get">
-                <input type="text" id="search" class="search-box col-xs-offset-1 col-xs-8" name="search"/>
-                <button type="submit" class="col-xs-2 send">
+                <input type="text" id="search" class="search-box col-xs-offset-2 col-xs-7" name="search"/>
+                <button type="submit" class="col-xs-1 send">
                     <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.25 37.04"><circle class="line-1" cx="13.05" cy="13.05" r="10.72"/><line class="line-1" x1="30.92" y1="34.71" x2="19.87" y2="21.32"/></svg>
                 </button>
             </form>
@@ -696,33 +696,33 @@
                     <ul>
                         <li>
                             <div class="image_title">
-                                <a href="#">KungFu Panda</a>
+                                <a href="http://www.mam.paris.fr/">Musée d'art moderne de la ville de Paris</a>
                             </div>
-                            <a href="#">
+                            <a href="http://www.mam.paris.fr/">
                                 <img src="img/expo-1.jpg"/>
                             </a>
                         </li>
                         <li>
                             <div class="image_title">
-                                <a href="#">Toy Story 2</a>
+                                <a href="http://www.grandpalais.fr/">Grand Palais</a>
                             </div>
-                            <a href="#">
+                            <a href="http://www.grandpalais.fr/">
                                 <img src="img/expo-2.jpg"/>
                             </a>
                         </li>
                         <li>
                             <div class="image_title">
-                                <a href="#">Wall-E</a>
+                                <a href="http://www.mucem.org/"> Mucem</a>
                             </div>
-                            <a href="#">
+                            <a href="http://www.mucem.org/">
                                 <img src="img/expo-3a.jpg"/>
                             </a>
                         </li>
                         <li>
                             <div class="image_title">
-                                <a href="#">Up</a>
+                                <a href="http://www.musee-orsay.fr/">Musée d'Orsay</a>
                             </div>
-                            <a href="#">
+                            <a href="http://www.musee-orsay.fr/">
                                 <img src="img/expo-4.jpg"/>
                             </a>
                         </li>
