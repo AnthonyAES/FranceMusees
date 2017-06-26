@@ -736,14 +736,20 @@
                         </li>
                     </ul>
                 </div>
-
-                <!--<div class="col-md-3 expo-1"></div>
-<div class="col-md-3 expo-2"></div>
-<div class="col-md-3 expo-3"></div>
-<div class="col-md-3 expo-4"></div>-->
             </div>
         </article>
-
+       
+       <div class="modal-museum-bg container-fluid">
+           <div class="modal-core row">
+               <div class="col-xs-12 col-md-6">
+                   
+               </div>
+               <div class="col-xs-12 col-md-6">
+                   
+               </div>
+           </div>
+       </div>
+       
         <!-- include footer.php -->
         <script
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
