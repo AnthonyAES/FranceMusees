@@ -3,6 +3,9 @@
 body{
     font-family: 'Didact Gothic', sans-serif;
     --red : #F25038;
+    --black : #292929;
+    --red2 : rgb(224, 77, 55);
+/*    background-color: #EDF2F4;*/
 }
 
 h3{
@@ -103,6 +106,14 @@ header a:focus, header a:hover {
 }
 
 
+.box-search{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: var(--red);
+}
 
 .search-box {
     background: transparent;
@@ -329,9 +340,113 @@ a.is-active {
 }
 
 
+
 /* -----MEDIA QUERIES EN PLUS PARCE QU'ON EST TOUT POINTILLEUX------- */
 
 
+.vignette{
+    height: 415px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.body_vignette {
+    background-color: var(--red);
+    padding: 10px;
+    height: 100%;
+}
+
+.head_vignette {
+    background-color: #e8e8e8;
+    overflow: hidden;
+    box-sizing: content-box;
+    border: 2px solid var(--red);
+}
+
+.img-acc{
+    height: 100px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.title_vignette {
+    background-color: var(--red2);
+    
+}
+
+.post-title {
+    margin: 0;
+    padding: 15px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.post-title:hover {
+    color: var(--black);
+    transition: color 0.5s;
+}
+
+.name_vignette {
+    text-transform: uppercase;
+    margin: 10px 0px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.more {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    padding: 10px;
+    background-color: var(--red2);
+    cursor: pointer;
+}
+
+.more:hover {
+    background-color: var(--black);
+    color: white;
+    transition: color 0.8s;
+    transition: background-color 0.8s;
+}
+
+.more > a {
+    color: white;
+    font-weight: 400;
+}
+
+
+.box-vign2 {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+.btn-page {
+    padding: 15px;
+    color: white;
+    background-color: var(--red);
+    margin: 2px;
+}
+
+
+.btn-active {
+    padding: 15px;
+    color: white;
+    background-color: var(--black);
+    margin: 2px;
+    cursor: pointer;
+}
+
+.btn-page:hover {
+    color: var(--black);
+}
+
+
+    
 @media (max-width: 576px) { 
     .catch-text, .carte, .last-exhib{
         display: none;
@@ -371,6 +486,7 @@ a.is-active {
         display: none;
     }
 }
+
 
 
 

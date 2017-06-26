@@ -59,7 +59,10 @@ paths.forEach(function (path) {
         var idLong = path.id;
         var id = idLong.slice(3, 5);
         var id2 = idLong.slice(-1);
+        /*var menuHref = document.querySelector('#region-'+id2).href;
+        var menuHrefShort = menuHref.replace ('http://vesoul.codeur.online/front/santhony/FranceMusees/','');*/
         activeArea(id, id2);
+        /*document.querySelector(menuHrefShort).classList.add('in');*/
     });
 });
 
@@ -68,9 +71,12 @@ paths.forEach(function (path) {
         var idLong = path.id;
         var id = idLong.slice(3, 5);
         var id2 = idLong.slice(-1);
+        /*var menuHref = document.querySelector('#region-'+id2).href;
+        var menuHrefShort = menuHref.replace ('http://vesoul.codeur.online/front/santhony/FranceMusees/','');*/
         activeArea();
         document.querySelector('#region-'+id2).classList.remove('is-active');
         document.querySelector('#list-'+id+"-"+id2).classList.remove('is-active');
+        /*document.querySelector(menuHrefShort).classList.remove('in');*/
     });
 });
 
@@ -96,7 +102,7 @@ groups.forEach(function (group) {
 
 links.forEach(function (link) {
     link.addEventListener('mouseenter', function() {
-        var id = link.id;;
+        var id = link.id;
         activeArea4(id);
     });
 });

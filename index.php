@@ -746,9 +746,6 @@
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/map.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4&callback=initMap"
-                async defer></script>
         <script src="js/script.js"></script>
     </body>
 
