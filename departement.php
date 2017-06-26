@@ -422,60 +422,33 @@ catch(PDOException $e)
         
         foreach($result as $article){
         echo '<div id="myModal'.$article['id'].'" class="modal fade" tabindex="-1" role="dialog">';
-        echo    '<div class="modal-dialog" role="document">';
-        echo            '<div class="modal-content">';
-        echo                '<div class="modal-header">';
-        echo                    '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-        echo                    '<h4 class="modal-title">Modal title</h4>';
-        echo                '</div>';
-        echo                '<div class="modal-body">';
-        echo                    '<div class="col-xs-12 col-md-6">';
-                        include 'musee.php';
-        echo                    '</div>';
-        echo                    '<div class="col-xs-12 col-md-6" id="map">';
+        echo '<div class="modal-dialog" role="document">';
+        echo '<div class="modal-content">';
+            
+        echo '<div class="modal-header">';
+        echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
+        echo '<h4 class="modal-title">Modal title</h4>';
+        echo '</div>';
+        echo '<div class="modal-body">';
+        echo '<div class="col-xs-12 col-md-6">';
+        
+        echo '</div>';
+        echo '<div class="col-xs-12 col-md-6" id="map">';
 
-        echo                    '</div>';
-        echo                '</div>';
-        echo                '<div class="modal-footer">';
-        echo                    '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
-        echo                    '<button type="button" class="btn btn-primary">Save changes</button>';
-        echo                '</div>';
-        echo            '</div>';
-        echo        '</div>';
-        echo    '</div>';
+        echo '</div>';
+        echo '</div>';
+        echo '<div class="modal-footer">';
+        echo '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
+        echo '<button type="button" class="btn btn-primary">Save changes</button>';
+        echo '</div>';
+        echo '</div>';
+        echo '</div>';
+        echo '</div>';
         }
                
                
     ?>
     
-        
-        
-
-
-            
-                <!--<div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Modal title</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div class="col-xs-12 col-md-6">
-
-                            </div>
-                            <div class="col-xs-12 col-md-6" id="map">
-
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-
-
         
         
         </article>
@@ -485,6 +458,7 @@ catch(PDOException $e)
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/map.js"></script>
         <script src="js/script.js"></script>
 </body>
 </html>
