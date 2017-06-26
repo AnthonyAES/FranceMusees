@@ -64,19 +64,31 @@ header a:focus, header a:hover {
     display: inline;
 }
 
-.logo-text{
+.logo-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.9em;
     text-transform: uppercase;
     display: inline;
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.8em;
 }
 
 .hidden{
     display: none;
 }
 
+
+.catch-text{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    position: relative;
+    top: 28px;
+}
 
 /******************** HEADER IMAGE ET ZONE DE RECHERCHE *****************/
 
@@ -335,12 +347,28 @@ a.is-active {
         width: 4.5em;
         height: 4.5em;
     }
-    
+
     .square-title {
-    margin-top: 5em;
+        margin-top: 5em;
     }
 }
 
+@media (max-width: 768px){
+    .catch-text{
+        top: 8px;
+    }
+
+    header{
+            padding-bottom: 2.5em;
+    padding-top: 3.5em;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .catch-text, .last-exhib{
+        display: none;
+    }
+}
 
 
 
