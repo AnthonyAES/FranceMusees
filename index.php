@@ -58,28 +58,6 @@
 
                     <div class="col-xs-offset-1 col-xs-10">
 
-<<<<<<< HEAD
-            <div class="row">
-                <div class="liste col-xs-12 col-md-offset-2 col-md-2">
-
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a id="region-A" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                        Hauts de France</a>
-                                </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <ul>
-                                        <li><a id="list-02-A" href="departement.php?id=02">Aisne</a></li>
-                                        <li><a id="list-59-A" href="departement.php?id=59">Nord</a></li>
-                                        <li><a id="list-60-A" href="departement.php?id=60">Oise</a></li>
-                                        <li><a id="list-62-A" href="departement.php?id=62">Pas-de-Calais</a></li>
-                                        <li><a id="list-80-A" href="departement.php?id=80">Somme</a></li>
-                                    </ul> 
-=======
                         <div class="panel-group" id="accordion">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
@@ -87,9 +65,8 @@
                                         <a id="region-A" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                                             Hauts de France</a>
                                     </h4>
->>>>>>> ac4e7dadef093f5e828b6200be78a8a02f7e38f5
                                 </div>
-                                <div id="collapse1" class="panel-collapse collapse in">
+                                <div id="collapse1" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ul>
                                             <li><a id="list-02-A" href="departement.php?id=02">Aisne</a></li>

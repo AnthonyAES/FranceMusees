@@ -1,4 +1,5 @@
-<html lang="fr">
+<!DOCTYPE html>
+   <html lang="fr">
     <head>
         <!-- METAS -->
         <meta charset="UTF-8">
@@ -344,7 +345,8 @@
                     </div>
             
         </div>
-    <div class="box-vign col-md-8">
+
+    <div class="box-vign2 col-md-8">
 
 <?php 
 
@@ -384,16 +386,7 @@ $motCle = addslashes($_GET['search']);
             $stmt->execute();
             $musees = $stmt->fetchAll();        
         
-        echo "<div class='pagination'>";
-        for($i=1;$i<=$nbPage;$i++){
-            if($i==$cPage){
-              echo  "<a class='btn-active'> $i </a>";
-            }else {
-             echo "<a class='btn-page' href='recherche.php?search=$motCle&p=$i'>$i</a>";   
-            }
-        }
         
-        echo "</div>";
 	}
 		catch(PDOException $e){
 		echo 'Erreur : '.$e->getMessage();
@@ -437,7 +430,18 @@ $motCle = addslashes($_GET['search']);
         echo "</div>";
         echo "</div>";
         echo "</div>";
-    }       
+    }   
+    
+    echo "<div class='pagination2 col-xs-12'>";
+        for($i=1;$i<=$nbPage;$i++){
+            if($i==$cPage){
+              echo  "<a class='btn-active'> $i </a>";
+            }else {
+             echo "<a class='btn-page' href='recherche.php?search=$motCle&p=$i'>$i</a>";   
+            }
+        }
+        
+        echo "</div>";
 }
 
 ?>

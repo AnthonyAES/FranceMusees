@@ -402,19 +402,12 @@ a.is-active {
     font-weight: 400;
 }
 
-.box-vign {
+
+.box-vign2 {
     position: relative;
     padding-bottom: 50px;
 }
 
-.pagination {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin: 0;
-    margin-left: -211px;
-    margin-top: 20px;
-}
 
 .btn-page {
     padding: 15px;
