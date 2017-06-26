@@ -12,8 +12,8 @@ if (NodeList.prototype.forEach === undefined) {
 
 var activeArea = function(id, id2) {
     map.querySelectorAll('.is-active').forEach(function (item){
-            item.classList.remove('is-active');
-        });
+        item.classList.remove('is-active');
+    });
     if (id !== undefined) {
         var fullId = '#FR-' + id + "-" + id2;
         document.querySelector(fullId).classList.add('is-active');
@@ -24,8 +24,8 @@ var activeArea = function(id, id2) {
 
 var activeArea2 = function(id, id2) {
     map.querySelectorAll('.is-active').forEach(function (item){
-            item.classList.remove('is-active');
-        });
+        item.classList.remove('is-active');
+    });
     if (id !== undefined) {
         var fullId = '#FR-' + id + "-" + id2 + ">path";
         document.querySelector(fullId).classList.add('is-active');
@@ -37,8 +37,8 @@ var activeArea2 = function(id, id2) {
 
 var activeArea4 = function(id, id2) {
     map.querySelectorAll('.is-active').forEach(function (item){
-            item.classList.remove('is-active');
-        });
+        item.classList.remove('is-active');
+    });
     if (id !== undefined) {
         var id1 = id.slice(5, 7);
         var id2 = id.slice(8, 10);
@@ -49,7 +49,7 @@ var activeArea4 = function(id, id2) {
             document.querySelector(fullId+">path").classList.add('is-active');  
             document.querySelector(fullId+">path:nth-child(2)").classList.add('is-active');  
         }else {
-            
+
         }
     }
 }
@@ -106,3 +106,7 @@ links.forEach(function (link) {
         activeArea4();
     });
 });
+
+
+
+

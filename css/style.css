@@ -361,8 +361,8 @@ a.is-active {
     }
 
     header{
-            padding-bottom: 2.5em;
-    padding-top: 3.5em;
+        padding-bottom: 2.5em;
+        padding-top: 3.5em;
     }
 }
 
@@ -383,6 +383,11 @@ a.is-active {
     margin-left: -15px;
     margin-right: -15px;
     padding: 0;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
     background-color: rgba(242, 80, 56, 0.6);
 }
 
@@ -395,6 +400,9 @@ a.is-active {
 }
 
 
-
+#map{
+    width: 100%;
+    height: 500px;
+}
 
 

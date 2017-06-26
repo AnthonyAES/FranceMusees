@@ -48,9 +48,9 @@
         <article class="find-museum">
 
             <div class="row titles">
-               
+
                 <div class="liste col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-4">
-                   
+
                     <div class="square-title">
                         <div class="square"></div>
                         <h3 class="">Liste des musées</h3>
@@ -360,11 +360,11 @@
                         </div>  
 
                     </div>
-                
+
                 </div>
-                
+
                 <div class="carte col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-5">
-                   
+
                     <div class="square-title">
                         <div class="square"></div>
                         <h3 class="">Carte interactive</h3>
@@ -685,9 +685,9 @@
                         </svg>
 
                     </div>
-                
+
                 </div>
-                
+
             </div>
 
         </article>
@@ -738,24 +738,17 @@
                 </div>
             </div>
         </article>
-       
-       <div class="modal-museum-bg container-fluid">
-           <div class="modal-core row">
-               <div class="col-xs-12 col-md-6">
-                   
-               </div>
-               <div class="col-xs-12 col-md-6">
-                   
-               </div>
-           </div>
-       </div>
-       
+
+
         <!-- include footer.php -->
         <script
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/map.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4&callback=initMap"
+                async defer></script>
         <script src="js/script.js"></script>
     </body>
 

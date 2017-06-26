@@ -18,20 +18,7 @@ catch(PDOException $e)
     echo "Connection failed: " . $e->getMessage();
     }
 ?>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Musées de France</title>
-</head>
-    <style>
-        #map{
-            width: 100%;
-            height: 500px;
-        }
-    </style>
-<body>
+
      <?php  
         foreach($result as $article){
             $linkDep = $article['nom_dep'];
@@ -73,12 +60,4 @@ catch(PDOException $e)
                        
                
     ?>
-    
-    <div id="map"></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4&callback=initMap"
-    async defer></script>
-    
-</body>
-</html>
+
