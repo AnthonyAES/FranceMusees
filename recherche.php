@@ -41,6 +41,29 @@
                 </button>
             </form>
         </article>
+<<<<<<< HEAD
+       <article class="row">
+        <div class="liste col-md-4 col-lg-offset-1 col-lg-2 col-xs-12 visible-md-block visible-lg-block">
+            <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a id="region-A" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                        Hauts de France</a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul>
+                                        <li><a id="list-02-A" href="departement.php?id=02">Aisne</a></li>
+                                        <li><a id="list-59-A" href="departement.php?id=59">Nord</a></li>
+                                        <li><a id="list-60-A" href="departement.php?id=60">Oise</a></li>
+                                        <li><a id="list-62-A" href="departement.php?id=62">Pas-de-Calais</a></li>
+                                        <li><a id="list-80-A" href="departement.php?id=80">Somme</a></li>
+                                    </ul> 
+                                </div>
+                            </div>
+=======
         <article class="row">
             <div class="liste col-md-2 col-md-offset-1">
                 <div class="panel-group" id="accordion">
@@ -50,6 +73,7 @@
                                 <a id="region-A" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
                                     Hauts de France</a>
                             </h4>
+>>>>>>> 3260d583a7fe654f85a59c637e4dfd6cc4367b6a
                         </div>
                         <div id="collapse1" class="panel-collapse collapse">
                             <div class="panel-body">
@@ -342,6 +366,210 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< HEAD
+            
+        </div>
+           <div class="liste-mobile col-xs-8 col-xs-offset-2 visible-xs-block visible-sm-block">
+               <form class="col-xs-12">
+                <select class="col-xs-12" name="departements" id="dep_select">
+                    <option value="02">Aisne</option>
+                    <option value="59">Nord</option>
+                    <option value="60">Oise</option>
+                    <option value="62">Pas-de-Calais</option>
+                    <option value="80">Somme</option>
+                    <option value="44">Loire-Atlantique</option>
+                    <option value="49">Maine-et-Loire</option>
+                    <option value="53">Mayenne</option>
+                    <option value="72">Sarthe</option>
+                    <option value="85">Vendée</option>
+                    <option value="09">Ariège</option>
+                    <option value="11">Aude</option>
+                    <option value="12">Aveyron</option>
+                    <option value="30">Gard</option>
+                    <option value="31">Haute-Garonne</option>
+                    <option value="32">Gers</option>
+                    <option value="34">Hérault</option>
+                    <option value="46">Lot</option>
+                    <option value="48">Lozère</option>
+                    <option value="65">Hautes-Pyrénées</option>
+                    <option value="66">Pyrénées-Orientales</option>
+                    <option value="81">Tarn</option>
+                    <option value="82">Tarn-et-Garonne</option>
+                    <option value="14">Calvados</option>
+                    <option value="27">Eure</option>
+                    <option value="50">Manche</option>
+                    <option value="61">Orne</option>
+                    <option value="76">Seine-Maritime</option>
+                    <option value="08">Ardennes</option>
+                    <option value="10">Aube</option>
+                    <option value="51">Marne</option>
+                    <option value="52">Haute-Marne</option>
+                    <option value="54">Meurthe-et-Moselle</option>
+                    <option value="55">Meuse</option>
+                    <option value="57">Moselle</option>
+                    <option value="67">Bas-Rhin</option>
+                    <option value="68">Haut-Rhin</option>
+                    <option value="88">Vosges</option>
+                    <option value="21">Côte-d'Or</option>
+                    <option value="25">Doubs</option>
+                    <option value="39">Jura</option>
+                    <option value="58">Nièvre</option>
+                    <option value="70">Haute-Saône</option>
+                    <option value="71">Saône-et-Loire</option>
+                    <option value="89">Yonne</option>
+                    <option value="90">Territoire de Belfort</option>
+                    <option value="01">Ain</option>
+                    <option value="03">Allier</option>
+                    <option value="07">Ardèche</option>
+                    <option value="15">Cantal</option>
+                    <option value="26">Drôme</option>
+                    <option value="38">Isère</option>
+                    <option value="42">Loire</option>
+                    <option value="43">Haute-Loire</option>
+                    <option value="63">Puy-de-Dôme</option>
+                    <option value="73">Savoie</option>
+                    <option value="69">Rhône</option>
+                    <option value="74">Haute-Savoie</option>
+                    <option value="75">Paris</option>
+                    <option value="77">Seine-et-Marne</option>
+                    <option value="78">Yvelines</option>
+                    <option value="91">Essonne</option>
+                    <option value="92">Hauts-de-Seine</option>
+                    <option value="93">Seine-Saint-Denis</option>
+                    <option value="94">Val-de-Marne</option>
+                    <option value="95">Val-d'Oise</option>
+                    <option value="18">Cher</option>
+                    <option value="28">Eure-et-Loir</option>
+                    <option value="36">Indre</option>
+                    <option value="37">Indre-et-Loire</option>
+                    <option value="41">Loir-et-Cher</option>
+                    <option value="45">Loiret</option>
+                    <option value="04">Alpes-de-Haute-Provence</option>
+                    <option value="05">Hautes-Alpes</option>
+                    <option value="06">Alpes-Maritimes</option>
+                    <option value="13">Bouches-du-Rhône</option>
+                    <option value="83">Var</option>
+                    <option value="84">Vaucluse</option>
+                    <option value="22">Côtes-d'Armor</option>
+                    <option value="29">Finistère</option>
+                    <option value="35">Ille-et-Vilaine</option>
+                    <option value="56">Morbihan</option>
+                    <option value="16">Charente</option>
+                    <option value="17">Charente-Maritime</option>
+                    <option value="19">Corrèze</option>
+                    <option value="23">Creuse</option>
+                    <option value="24">Dordogne</option>
+                    <option value="33">Gironde</option>
+                    <option value="40">Landes</option>
+                    <option value="47">Lot-et-Garonne</option>
+                    <option value="64">Pyrénées-Atlantiques</option>
+                    <option value="79">Deux-Sèvres</option>
+                    <option value="86">Vienne</option>
+                    <option value="87">Haute-Vienne</option>
+                    <option value="2A">Corse-du-Sud</option>
+                    <option value="2B">Haute-Corse</option>
+                    <option value="MY">Mayotte</option>
+                    <option value="GD">Guadeloupe</option>
+                    <option value="GY">Guyane</option>
+                    <option value="LR">La Réunion</option>
+                    <option value="MA">Martinique</option>
+                </select>   
+               </form>
+           </div>
+
+    <div class="box-vign2 col-md-8 col-lg-8 col-sm-12 col-xs-12">
+
+<?php 
+
+
+// connexion bdd    
+$hostname='localhost';
+$username='santhony';
+$password='santhony@2017';
+$perPage= 6;
+
+if(isset($_GET['search']) && !empty($_GET['search'])) {
+
+$motCle = addslashes($_GET['search']);        
+
+	try{
+        $conn = new PDO("mysql:host=$hostname;dbname=santhony", $username, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+            $stmt = $conn->prepare("SELECT COUNT(id) as nbr FROM musee WHERE cp LIKE CONCAT('%', :motcle , '%') OR ville LIKE CONCAT('%', :motcle , '%') OR nom_reg LIKE CONCAT('%', :motcle , '%') OR nom_dep LIKE CONCAT('%', :motcle , '%') OR nom_du_musee LIKE CONCAT('%', :motcle , '%')");
+            $stmt->bindParam(':motcle', $motCle);
+            $stmt->execute();
+            $result = $stmt->fetch();
+             
+            $totalEnregistrement = $result['nbr'];
+            $nbPage = ceil($totalEnregistrement/$perPage);
+            
+            if(isset($_GET['p']) && $_GET['p']>0 && $_GET['p']<=$nbPage) {
+                $cPage = $_GET['p'];
+            } else {
+                $cPage = 1;
+            }
+        
+            $count = ($cPage-1)*$perPage;
+        
+            $stmt = $conn->prepare("SELECT * FROM musee WHERE nom_dep LIKE CONCAT('%', :motcle , '%') OR ville LIKE CONCAT('%', :motcle , '%') OR nom_reg LIKE CONCAT('%', :motcle , '%') OR nom_du_musee LIKE CONCAT('%', :motcle , '%') LIMIT :count, :perPage");
+            $stmt->bindParam(':motcle', $motCle);
+            $stmt->bindParam(':count', $count, PDO::PARAM_INT);
+            $stmt->bindParam(':perPage', $perPage, PDO::PARAM_INT);
+            $stmt->execute();
+            $musees = $stmt->fetchAll();        
+        
+        
+	}
+		catch(PDOException $e){
+		echo 'Erreur : '.$e->getMessage();
+		echo 'N° : '.$e->getCode();
+	}   
+     
+        foreach($musees as $article){
+            $linkDep = $article['nom_dep'];
+            $linkDep_ = str_replace(' ', '_', $linkDep);
+            $adr_img = $article['lien_image'];
+        echo "<div class='vignette col-xs-12 col-sm-6 col-md-6 col-lg-4'>"; 
+        
+        echo "<div class='head_vignette'>";
+        echo "<p class='img-acc'>";
+        echo "<img src='".$adr_img."'>";
+        echo "</p>";
+            
+        echo "<div class='title_vignette'>";   
+        echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
+        echo $article['nom_du_musee'];
+        echo "</h2></a>";
+            
+        echo "</div>";
+        
+        echo "</div>";
+            
+        echo "<div class='body_vignette'>";
+        echo "<h3 class='name_vignette'>ADRESSE</h3>";
+            
+        echo "<p class='post-subtitle-mess'>";
+        echo $article['cp'];
+        echo " ";
+        echo $article['ville'];
+        echo "</p>";
+        
+        echo "<h3 class='name_vignette'>Période d'ouverture</h3>";
+        echo "<p class='post-meta'>";
+        echo $article['periode_ouverture']; 
+        echo "</p>";
+        echo "<div class='more'><a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
+        echo "</div>";
+        echo "</div>";
+        echo "</div>";
+    }   
+    
+    echo "<div class='pagination2 col-xs-12'>";
+        for($i=1;$i<=$nbPage;$i++){
+            if($i==$cPage){
+              echo  "<a class='btn-active'> $i </a>";
+            }else {
+             echo "<a class='btn-page' href='recherche.php?search=$motCle&p=$i'>$i</a>";   
+=======
                 </div>
 
             </div>
@@ -439,6 +667,7 @@
                 }else {
                     echo "<a class='btn-page' href='recherche.php?search=$motCle&p=$i'>$i</a>";   
                 }
+>>>>>>> 3260d583a7fe654f85a59c637e4dfd6cc4367b6a
             }
 
             echo "</div>";

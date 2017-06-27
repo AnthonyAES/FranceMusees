@@ -516,7 +516,16 @@ a.is-active {
     background-color: var(--red);
 }
 
+.pagination2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
+.liste-mobile {
+    margin-bottom: 15px;
+    height: 50px;
+}
 
 
 
