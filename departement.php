@@ -547,6 +547,7 @@ catch(PDOException $e)
 
 
         </article>
+        <?php include 'footer.php' ?>
 
         <script
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
