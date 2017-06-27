@@ -118,12 +118,18 @@ header a:focus, header a:hover {
 .search-box {
     background: transparent;
     border: none;
-    border-bottom: 4px solid white;
     font-size: 2.5vh;
     font-weight: 600;
+    padding: 0;
     padding-bottom: 0.2em;
     color: white;
     height: 59px;
+}
+
+.cherche{
+    border-bottom: 4px solid white;
+    height: 59px;
+    padding: 0;
 }
 
 .search-box:focus {
@@ -133,9 +139,9 @@ header a:focus, header a:hover {
 .send{
     background-color: transparent;
     border: none;
+    padding: 0;
     text-align: right;
     margin: 0;
-    border-bottom: 4px solid white;
     height: 59px;
 }
 
@@ -571,7 +577,7 @@ footer.row {
     .catch-text, .carte, .last-exhib{
         display: none;
     }
-    
+
     h3{
         font-size: 1.6em;
     }
@@ -629,6 +635,23 @@ footer.row {
     .row:not(header) {
         margin-bottom: 3em;
     }
+    
+    .search-box{
+            font-size: 4vh;
+    }
+
+}
+
+@media screen and (device-aspect-ratio: 40/71){
+    .logo-text{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    
+    .search-box{
+            font-size: 4vh;
+    }
+    
 }
 
 @media (min-width: 577px) and (max-width: 769px){
@@ -653,11 +676,15 @@ footer.row {
         margin-bottom: 3em;
     }
     
+    
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
     .catch-text, .last-exhib{
-        display: none;
+        display: none;    
+    }
+    .box-search {
+    height: 70vh;
     }
 }
 
