@@ -115,4 +115,32 @@ links.forEach(function (link) {
 
 
 
+/*-----------------------------------------*/
+
+
+    $(function(){
+      // bind change event to select
+      $('#dep_select').on('change', function () {
+          var url = $(this).val(); // get selected value
+          var departement = "departement.php?id=";
+          if (url) { // require a URL
+              window.location = departement + url; // redirect
+          }
+          return false;
+      });
+    });
+
+    function selected() {
+        var url = window.location.href.slice(-5, -2);
+        if(url == "id="){
+            var id = window.location.href.slice(-2);
+            var optSelect = document.querySelector('option[value="'+id+'"]');
+            optSelect.selected = true;
+        }
+    }
+
+selected();
+
+
+
 
