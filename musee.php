@@ -26,7 +26,7 @@ catch(PDOException $e)
             $adr_img = $article['lien_image'];
             $adr_musee = $article['adresse'];
             
-        echo "<div class='homeart'>";
+        echo "<div class='homeart col-xs-12 col-md-6'>";
         echo  "<div class='post-preview'><h2 class='post-title'>";
         echo $article['nom_du_musee'];
         echo "</h2>";

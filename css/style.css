@@ -522,3 +522,6 @@ a.is-active {
 }
 
 
+.modal-backdrop {
+    background-color: var(--red);
+}
