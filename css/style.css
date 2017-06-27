@@ -528,7 +528,12 @@ a.is-active {
 }
 
 
-
+.close{
+    position: absolute;
+    right: 1vw;
+    font-size: 3em;
+    z-index: 50;
+}
 
 
 

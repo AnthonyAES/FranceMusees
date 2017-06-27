@@ -56,6 +56,10 @@ catch(PDOException $e)
             
         echo "</div>";
         echo "</div>";
+            
+        echo '<div class="col-xs-12 col-md-6" id="#map">';
+        echo '</div>';
+        
     }       
                        
                
