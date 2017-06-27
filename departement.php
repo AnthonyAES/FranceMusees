@@ -376,7 +376,7 @@ catch(PDOException $e)
 
             </div>
 
-            <div class="liste-mobile col-xs-8 col-xs-offset-2 visible-xs-block visible-sm-block">
+            <div class="liste-mobile col-sm-8 col-xs-12 col-sm-offset-2 visible-xs-block visible-sm-block">
                 <form class="col-xs-12">
                     <select class="col-xs-12" name="departements" id="dep_select">
                         <option value="02">Aisne</option>
@@ -498,9 +498,9 @@ catch(PDOException $e)
         echo "</p>";
 
         echo "<div class='title_vignette'>";   
-        echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . " ' href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
+        echo  "<a id='linkN".$article['id']."' data-toggle='modal' data-target='#myModal" . $article['id'] . " ' href='musee.php?id=" . $article['id'] . "'><h3 id='nameMusee".$article['id']."' class='post-title'>";
         echo $article['nom_du_musee'];
-        echo "</h2></a>";
+        echo "</h3></a>";
 
         echo "</div>";
 
@@ -509,7 +509,9 @@ catch(PDOException $e)
         echo "<div class='body_vignette'>";
         echo "<h3 class='name_vignette'>ADRESSE</h3>";
 
-        echo "<p class='post-subtitle-mess'>";
+        echo "<p id='adresscom".$article['id']."' class='post-subtitle-mess'>";
+        echo $article['adresse'];
+        echo " ";
         echo $article['cp'];
         echo " ";
         echo $article['ville'];
@@ -519,7 +521,7 @@ catch(PDOException $e)
         echo "<p class='post-meta'>";
         echo $article['periode_ouverture']; 
         echo "</p>";
-        echo "<div class='more'><a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
+        echo "<div class='more'><a id='linkB".$article['id']."' data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
         echo "</div>";
         echo "</div>";
         echo "</div>";
@@ -533,7 +535,8 @@ catch(PDOException $e)
                 echo '<div class="modal-dialog row" role="document">';
                 echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
                 echo '<div class="modal-content col-xs-12">';
-
+                echo '</div>';
+                echo '</div>';
                 echo '</div>';
                 echo '</div>';
             }
@@ -549,9 +552,11 @@ catch(PDOException $e)
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/map.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4"></script>
+        <script src="js/map.js"></script>
+
     </body>
 </html>
 
