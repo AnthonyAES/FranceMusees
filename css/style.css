@@ -531,25 +531,24 @@ a.is-active {
     .catch-text, .carte, .last-exhib{
         display: none;
     }
-
+    
     h3{
         font-size: 1.6em;
     }
-
+    
     .logo-text{
         font-size: 1.4em;
     }
-
+    
     .logo svg {
         width: 4.5em;
         height: 4.5em;
     }
-
+    
     .square-title {
         margin-top: 5em;
     }
-
-
+    
     .modal{
         width: 100vw;
     }
@@ -557,7 +556,7 @@ a.is-active {
     .modal .row{
         margin-bottom: 0;
     }
-
+    
     .modal-dialog{
         margin-top: 7vh;
         margin-bottom: 0;
@@ -569,24 +568,23 @@ a.is-active {
         width: 90vw;
         height: 86vh;
     }
-
+    
     .modal p {
         font-size: 0.9em;
     }
-
+    
     .modal .post-title{
         margin: 0;
         padding: 15px 0px;
         font-size: 1.3em;
         color: var(--red2);
     }
-
+    
     .modal h4{
         font-size: 1.2em;
         margin-top: 14px;
         margin-bottom: 7px;
     }
-
 }
 
 @media (min-width: 577px) and (max-width: 769px){
