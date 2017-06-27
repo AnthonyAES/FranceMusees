@@ -523,13 +523,17 @@ a.is-active {
 }
 
 .liste-mobile {
-    margin-bottom: 15px;
-    height: 50px;
+    margin-bottom: 3em;
 }
 
-
-
-
+.liste-mobile>form>select {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid var(--red);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.3em;
+}
 
 
 /* -----MEDIA QUERIES EN PLUS PARCE QU'ON EST TOUT POINTILLEUX------- */
@@ -595,6 +599,10 @@ a.is-active {
         margin-top: 14px;
         margin-bottom: 7px;
     }
+    
+    .row:not(header) {
+        margin-bottom: 3em;
+    }
 
 }
 
@@ -614,6 +622,10 @@ a.is-active {
     
     .modal-content {
         width: 80vw;
+    }
+    
+    .row:not(header) {
+        margin-bottom: 3em;
     }
     
 }
