@@ -535,6 +535,10 @@ a.is-active {
     font-size: 1.3em;
 }
 
+.liste-mobile>form>select:focus {
+    outline: 2px solid rgba(173, 22, 0, 0.18);
+}
+
 
 /* -----MEDIA QUERIES EN PLUS PARCE QU'ON EST TOUT POINTILLEUX------- */
 

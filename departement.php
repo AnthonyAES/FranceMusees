@@ -376,7 +376,7 @@ catch(PDOException $e)
                 
                 </div>
                 
-        <div class="liste-mobile col-xs-8 col-xs-offset-2 visible-xs-block visible-sm-block">
+        <div class="liste-mobile col-sm-8 col-xs-12 col-sm-offset-2 visible-xs-block visible-sm-block">
                <form class="col-xs-12">
                 <select class="col-xs-12" name="departements" id="dep_select">
                     <option value="02">Aisne</option>
