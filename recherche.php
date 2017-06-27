@@ -405,16 +405,16 @@
                 echo "</p>";
 
                 echo "<div class='title_vignette'>";   
-                echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
+                echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h4 class='post-title'>";
                 echo $article['nom_du_musee'];
-                echo "</h2></a>";
+                echo "</h4></a>";
 
                 echo "</div>";
 
                 echo "</div>";
 
                 echo "<div class='body_vignette'>";
-                echo "<h3 class='name_vignette'>ADRESSE</h3>";
+                echo "<h4 class='name_vignette'>ADRESSE</h4>";
 
                 echo "<p class='post-subtitle-mess'>";
                 echo $article['cp'];
@@ -422,7 +422,7 @@
                 echo $article['ville'];
                 echo "</p>";
 
-                echo "<h3 class='name_vignette'>Période d'ouverture</h3>";
+                echo "<h4 class='name_vignette'>Période d'ouverture</h4>";
                 echo "<p class='post-meta'>";
                 echo $article['periode_ouverture']; 
                 echo "</p>";

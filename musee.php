@@ -27,25 +27,25 @@ catch(PDOException $e)
             $adr_musee = $article['adresse'];
             
         echo "<div class='homeart col-xs-12 col-md-6'>";
-        echo  "<div class='post-preview'><h2 class='post-title'>";
+        echo  "<div class='post-preview'><h3 class='post-title'>";
         echo $article['nom_du_musee'];
-        echo "</h2>";
+        echo "</h3>";
             
         echo "<p class='img-acc'>";
         echo "<img src='".$adr_img."'>";
         echo "</p>";
           
-        echo "<h3>Périodes d'ouverture</h3>";    
+        echo "<h4>Périodes d'ouverture</h4>";    
         echo "<p class=''>";
         echo $article['periode_ouverture'];
         echo "</p>";
 
-        echo "<h3>Fermeture annuelle</h3>";  
+        echo "<h4>Fermeture annuelle</h4>";  
         echo "<p class=''>";
         echo $article['fermeture_annuelle'];
         echo "</p>";
             
-        echo "<h3>Adresse</h3>";  
+        echo "<h4>Adresse</h4>";  
         echo "<p class='adressecomp'>";
         echo $article['adresse'];
         echo "<br>";

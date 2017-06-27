@@ -422,8 +422,8 @@ catch(PDOException $e)
         
         foreach($result as $article){
         echo '<div id="myModal'.$article['id'].'" class="modal fade" tabindex="-1" role="dialog">';
-        echo '<div class="modal-dialog" role="document">';
-        echo '<div class="modal-content">';
+        echo '<div class="modal-dialog row" role="document">';
+        echo '<div class="modal-content col-xs-12">';
             
         echo '<div class="modal-header">';
         echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
