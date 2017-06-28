@@ -27,7 +27,7 @@ catch(PDOException $e)
             $adr_musee = $article['adresse'];
             
         echo "<div class='homeart col-xs-12 col-md-6'>";
-        echo  "<div class='post-preview'><h3 class='post-title'>";
+        echo  "<div class='post-preview'><h3 id='nameMusee".$article['id']."' class='post-title'>";
         echo $article['nom_du_musee'];
         echo "</h3>";
             
@@ -46,7 +46,7 @@ catch(PDOException $e)
         echo "</p>";
             
         echo "<h4>Adresse</h4>";  
-        echo "<p class='adressecomp'>";
+        echo "<p class='adressecomp' id='adresscom".$article['id']."'>";
         echo $article['adresse'];
         echo "<br>";
         echo $article['cp'];
@@ -56,8 +56,12 @@ catch(PDOException $e)
             
         echo "</div>";
         echo "</div>";
+            
+        echo '<div class="map col-xs-12 col-md-6" id="map'.$article['id'].'">';
+        echo '</div>';
+            
+            
     }       
                        
                
     ?>
-

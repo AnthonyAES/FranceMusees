@@ -327,7 +327,7 @@
                             <div class="panel-heading">
                                 <h4 class="panel-title">
                                     <a id="region-N" data-toggle="collapse" data-parent="#accordion" href="#collapse14">
-                                        DOM-TOM</a>
+                                        DOM</a>
                                 </h4>
                             </div>
                             <div id="collapse14" class="panel-collapse collapse">
@@ -512,9 +512,9 @@ $motCle = addslashes($_GET['search']);
         echo "</p>";
             
         echo "<div class='title_vignette'>";   
-        echo  "<a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h2 class='post-title'>";
+        echo  "<a id='linkN".$article['id']."' data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'><h3 id='nameMusee".$article['id']."' class='post-title'>";
         echo $article['nom_du_musee'];
-        echo "</h2></a>";
+        echo "</h3></a>";
             
         echo "</div>";
         
@@ -523,7 +523,9 @@ $motCle = addslashes($_GET['search']);
         echo "<div class='body_vignette'>";
         echo "<h3 class='name_vignette'>ADRESSE</h3>";
             
-        echo "<p class='post-subtitle-mess'>";
+        echo "<p id='adresscom".$article['id']."' class='post-subtitle-mess'>";
+        echo $article['adresse'];
+        echo " ";
         echo $article['cp'];
         echo " ";
         echo $article['ville'];
@@ -533,7 +535,7 @@ $motCle = addslashes($_GET['search']);
         echo "<p class='post-meta'>";
         echo $article['periode_ouverture']; 
         echo "</p>";
-        echo "<div class='more'><a data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
+        echo "<div class='more'><a id='linkB".$article['id']."' data-toggle='modal' data-target='#myModal" . $article['id'] . "' href='musee.php?id=" . $article['id'] . "'>Lire plus...</a>";
         echo "</div>";
         echo "</div>";
         echo "</div>";
@@ -555,42 +557,31 @@ $motCle = addslashes($_GET['search']);
 
 
         </div>
-        <?php
+<?php
 
             foreach($musees as $article){
                 echo '<div id="myModal'.$article['id'].'" class="modal fade" tabindex="-1" role="dialog">';
-                echo    '<div class="modal-dialog" role="document">';
-                echo            '<div class="modal-content">';
-                echo                '<div class="modal-header">';
-                echo                    '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-                echo                    '<h4 class="modal-title">Modal title</h4>';
-                echo                '</div>';
-                echo                '<div class="modal-body">';
-                echo                    '<div class="col-xs-12 col-md-6">';
-                include 'musee.php';
-                echo                    '</div>';
-                echo                    '<div class="col-xs-12 col-md-6" id="map">';
-
-                echo                    '</div>';
-                echo                '</div>';
-                echo                '<div class="modal-footer">';
-                echo                    '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
-                echo                    '<button type="button" class="btn btn-primary">Save changes</button>';
-                echo                '</div>';
-                echo            '</div>';
-                echo        '</div>';
-                echo    '</div>';
+                echo '<div class="modal-dialog row" role="document">';
+                echo '<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
+                echo '<div class="modal-content col-xs-12">';
+                echo '</div>';
+                echo '</div>';
+                echo '</div>';
+                echo '</div>';
             }
 
 
             ?>
         </article>
-        
+        <?php include 'footer.php' ?>
         <script
                 src="https://code.jquery.com/jquery-3.2.1.min.js"
                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
                 crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4"></script>
+        <script src="js/map.js"></script>
+        
 </body>
 </html>

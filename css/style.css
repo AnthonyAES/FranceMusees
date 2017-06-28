@@ -313,36 +313,43 @@ a.is-active {
     fill: #F25038;
 }
 
-::-webkit-scrollbar
-
-{
-
+::-webkit-scrollbar{
     width: 15px;
-
     margin-right: 3px;
-
 }
 
-::-webkit-scrollbar-track
-
-{
-
-    /*-webkit-box-shadow: inset 0 0 7px rgba(0,0,0,1);*/
+::-webkit-scrollbar-track{
     background-color: #ddd;
-    /*border-radius: 10px;*/
-
 }
 
-::-webkit-scrollbar-thumb
-
-{
-
-    /*border-radius: 10px;*/
-
-    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);*/
-
+::-webkit-scrollbar-thumb{
     background-color:  var(--red);
+}
 
+::-moz-scrollbar{
+    width: 15px;
+    margin-right: 3px;
+}
+
+::-moz-scrollbar-track{
+    background-color: #ddd;
+}
+
+::-moz-scrollbar-thumb{
+    background-color:  var(--red);
+}
+
+::-o-scrollbar{
+    width: 15px;
+    margin-right: 3px;
+}
+
+::-o-scrollbar-track{
+    background-color: #ddd;
+}
+
+::-o-scrollbar-thumb{
+    background-color:  var(--red);
 }
 
 
@@ -540,8 +547,32 @@ a.is-active {
     font-size: 1.3em;
 }
 
+
+.close{
+    position: absolute;
+    right: 1vw;
+    font-size: 3em;
+    z-index: 50;
+}
+
+
 .liste-mobile>form>select:focus {
     outline: 2px solid rgba(173, 22, 0, 0.18);
+}
+
+
+footer {
+    background-color: var(--red);
+    margin: 0;
+    padding: 10px;
+    height: 50px;
+    text-align: left;
+    color: white;
+    font-size: 1.3em;
+}
+
+footer.row {
+    margin-bottom: 0;
 }
 
 
@@ -553,26 +584,24 @@ a.is-active {
     .catch-text, .carte, .last-exhib{
         display: none;
     }
-      
 
     h3{
         font-size: 1.6em;
     }
-
+    
     .logo-text{
         font-size: 1.4em;
     }
-
+    
     .logo svg {
         width: 4.5em;
         height: 4.5em;
     }
-
+    
     .square-title {
         margin-top: 5em;
     }
-
-
+    
     .modal{
         width: 100vw;
     }
@@ -580,7 +609,7 @@ a.is-active {
     .modal .row{
         margin-bottom: 0;
     }
-
+    
     .modal-dialog{
         margin-top: 7vh;
         margin-bottom: 0;
@@ -592,18 +621,18 @@ a.is-active {
         width: 90vw;
         height: 86vh;
     }
-
+    
     .modal p {
         font-size: 0.9em;
     }
-
+    
     .modal .post-title{
         margin: 0;
         padding: 15px 0px;
         font-size: 1.3em;
         color: var(--red2);
     }
-
+    
     .modal h4{
         font-size: 1.2em;
         margin-top: 14px;
