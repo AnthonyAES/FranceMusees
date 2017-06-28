@@ -25,6 +25,30 @@ catch(PDOException $e)
 ?>
 <html lang="fr">
     <head>
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicomatic/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicomatic/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicomatic/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicomatic/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicomatic/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicomatic/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicomatic/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicomatic/apple-touch-icon-152x152.png" />
+
+<link rel="icon" type="image/png" href="favicomatic/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="favicomatic/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicomatic/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="favicomatic/favicon-128.png" sizes="128x128" />
+
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+       
+       
         <!-- METAS -->
         <meta charset="UTF-8">
         <title>Annuaire des Musées de France</title>
@@ -58,8 +82,8 @@ catch(PDOException $e)
 
             <h3 class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">Trouvez ici facilement le musée que vous cherchiez</h3>
 
-           <form class="cherche col-xs-offset-2 col-xs-8 col-md-offset-2 col-md-8" action ="recherche.php" method="get">
-                <input type="text" id="search" class="search-box col-xs-9" name="search"/>
+           <form class="cherche col-xs-offset-2 col-xs-8 col-md-offset-4 col-md-4" action ="recherche.php" method="get">
+                <input type="text" id="search" class="search-box col-xs-10 col-md-10" name="search"/>
                 <button type="submit" class="send col-xs-2">
                     <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.25 37.04"><circle class="line-1" cx="13.05" cy="13.05" r="10.72"/><line class="line-1" x1="30.92" y1="34.71" x2="19.87" y2="21.32"/></svg>
                 </button>
@@ -378,7 +402,7 @@ catch(PDOException $e)
                 
         <div class="liste-mobile col-sm-8 col-xs-12 col-sm-offset-2 visible-xs-block visible-sm-block">
                <form class="col-xs-12">
-                <select class="col-xs-12" name="departements" id="dep_select">
+                <select class="col-xs-12" name="departements" id="dep_select" multiple>
                     <option value="02">Aisne</option>
                     <option value="59">Nord</option>
                     <option value="60">Oise</option>

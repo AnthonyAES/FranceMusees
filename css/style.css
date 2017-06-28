@@ -143,7 +143,6 @@ header a:focus, header a:hover {
     text-align: right;
     margin: 0;
     height: 59px;
-    width: auto;
 }
 
 .send svg{
