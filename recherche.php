@@ -13,6 +13,30 @@
         <meta name="robots" content="All" />
 
         <meta name="viewport" content="width=device-width, user-scalable=no" />
+        
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicomatic/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicomatic/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicomatic/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicomatic/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicomatic/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicomatic/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicomatic/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicomatic/apple-touch-icon-152x152.png" />
+
+        <link rel="icon" type="image/png" href="favicomatic/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="favicomatic/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="favicomatic/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="favicomatic/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="favicomatic/favicon-128.png" sizes="128x128" />
+
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -345,7 +369,7 @@
                     </div>
             
         </div>
-           <div class="liste-mobile col-xs-8 col-xs-offset-2 visible-xs-block visible-sm-block">
+           <div class="liste-mobile col-sm-8 col-xs-12 col-sm-offset-2 visible-xs-block visible-sm-block">
                <form class="col-xs-12">
                 <select class="col-xs-12" name="departements" id="dep_select">
                     <option value="02">Aisne</option>
@@ -449,7 +473,8 @@
                     <option value="GY">Guyane</option>
                     <option value="LR">La Réunion</option>
                     <option value="MA">Martinique</option>
-                </select>   
+                </select>
+                <div class="arrow col-xs-1"><p>▼</p></div>
                </form>
            </div>
 

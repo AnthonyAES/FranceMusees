@@ -541,10 +541,26 @@ a.is-active {
 .liste-mobile>form>select {
     height: 40px;
     border: none;
+    border-radius: 0;
     border-bottom: 2px solid var(--red);
     background-color: transparent;
     font-weight: bold;
     font-size: 1.3em;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.liste-mobile>form {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 27px;
+    bottom: 0;
+    pointer-events: none;
+    color: var(--black);
 }
 
 
@@ -564,11 +580,11 @@ a.is-active {
 footer {
     background-color: var(--red);
     margin: 0;
-    padding: 10px;
     height: 50px;
-    text-align: left;
+    text-align: center;
     color: white;
-    font-size: 1.3em;
+    font-size: 1em;
+    line-height: 50px;
 }
 
 footer.row {
@@ -646,6 +662,11 @@ footer.row {
     .search-box{
             font-size: 4vh;
     }
+    
+    footer.row {
+        margin-bottom: 0;
+        font-size: 0.8em;
+    }
 
 }
 
@@ -683,6 +704,11 @@ footer.row {
         margin-bottom: 3em;
     }
     
+    footer.row {
+        margin-bottom: 0;
+        font-size: 0.8em;
+    }
+    
     
 }
 
@@ -692,6 +718,11 @@ footer.row {
     }
     .box-search {
     height: 70vh;
+    }
+    
+    footer.row {
+        margin-bottom: 0;
+        font-size: 0.8em;
     }
 }
 
