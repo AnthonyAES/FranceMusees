@@ -572,6 +572,7 @@ catch(PDOException $e)
 
 
         </article>
+        <a href="#"  class="scroll-button"><img src="img/up-arrow.svg" alt="fleche vers le haut" width="64" height="128"></a>
         <?php include 'footer.php' ?>
 
         <script
@@ -582,6 +583,7 @@ catch(PDOException $e)
         <script src="js/bootstrap.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm34dUtahqxI1t4InV-JOGMRxdE5KsPD4"></script>
         <script src="js/map.js"></script>
+        <script src="js/scroll.js"></script>
 
     </body>
 </html>

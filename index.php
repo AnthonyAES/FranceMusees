@@ -82,7 +82,7 @@
 
                     <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8">
 
-                        <div class="panel-group" id="accordion">
+                        <div class="notranslate panel-group" id="accordion">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
@@ -762,7 +762,7 @@
                 </div>
             </div>
         </article>
-
+        <a href="#"  class="scroll-button"><img src="img/up-arrow.svg" alt="fleche vers le haut" width="64" height="128"></a>
 
         <?php include 'footer.php' ?>
         <script
@@ -771,6 +771,7 @@
                 crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/scroll.js"></script>
     </body>
 
 </html>

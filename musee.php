@@ -31,7 +31,7 @@ catch(PDOException $e)
         echo $article['nom_du_musee'];
         echo "</h3>";
             
-        echo "<p class='img-acc'>";
+        echo "<p class='img-acc visible-sm-block'>";
         echo "<img src='".$adr_img."'>";
         echo "</p>";
           
